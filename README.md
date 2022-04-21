@@ -42,16 +42,12 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 ## Considerações de um desenvolvedor lowcode chato
 Desenvolver em um ambiente lowcode, como Genexus por exemplo, faz com que fiquemos um pouco mal acostumados com o fato de ter que escrever muito para obter algum resultado. 
 
-Quando aprendemos uma linguagem nova tentamos encontrar aquilo que nos faz mais falta.
+Quando aprendemos uma linguagem nova tentamos encontrar aquilo que nos faz mais falta. Senti falta de alguns recursos que automatizam o código, e auxiliam na padronização da programação. 
 
 * **domains**: criação de nomes para tipos específicos
 * **toJson e fromJson**: para parsear um tipo em formato JSON
 
 O que ficou faltando para ser TOP
-Senti falta de alguns recursos que automatizam o código, e auxiliam na padronização da programação. 
-
-* **domains**: criação de nomes para tipos específicos
-* **toJson e fromJson**: para parsear um tipo em formato JSON
 
 Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso, mas novamente, quem se acostumou num cenário mais lowcode prefere escrever menos e obter diretamente o resultado.
 Até entendo Go na parte dos tipos de dados, visto que é uma linguagem fortemente tipada que objetiva otimizar o uso da memória, mas isso se traduz em muito código.
@@ -89,4 +85,3 @@ var (
 * [Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
 
 
->>>>>>> 21641ff2206e2f56576c361b4c94e364379d27ee
