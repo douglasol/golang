@@ -23,4 +23,6 @@ Exemplos:
 
 [Exemplo1:]
 (https://github.com/douglasol/golang/tree/main/Exemplo1):
-Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). Todos os testes encontram-se no mesmo arquivo, em ordem sequencial, e foram comentados para não produzir uma confusão. Descomente a parte que deseja testar e em seguida execute no terminal o go run.
+Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). Todos os testes encontram-se no mesmo arquivo, em ordem sequencial e foram comentados para não gerar confusão. Para testar, descomente a parte que deseja  e em seguida execute  o go run. no terminal do VSC.
+
+
