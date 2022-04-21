@@ -29,6 +29,9 @@ Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Yout
 
 [Exemplo2](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo2) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
 
+[Exemplo3](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo3) Cobre o assunto divisão do main em packages, porém ainda dentro do mesmo pacote mai.
+
+[Exemplo4](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo4) Cobre o assunto de criação de packages em pastas, arquivos separados e comando import.
 
 
 ## Documentação adicional
