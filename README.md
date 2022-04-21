@@ -37,5 +37,14 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo5](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo5) Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
+## O que faltou
+Como desenvolvedor Genexus, alguns recursos automatizados são importantes e ainda não foram identificados na linguagem, destacamos:
+> domains: criação de tipos específicos
+> toJson e fromJson: para parsear um tipo em formato JSON
+
+## O que é mais chato
+Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso. Para um programador Genexus, a coisa pega um pouco porque tem muito código para se produzir algo bem simples.
+> numeric.toString = strconv.FormatUint(imot64(userTicket), 10)
+
 ## Documentação adicional
 Um doc com os recursos foi criado no [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
