@@ -43,6 +43,15 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 # Boas praticas
 Talvez isso se transforme em um capítulo a parte, pois muita coisa deve ser definida para que se produza um bom guia de programação.
 
+## uint
+Go possui vários tipos de unsigned int (uint)
+``
+uint
+uint8       0-255
+uint16      0-65535
+uint32      0-4294967295
+````
+
 ## var
 Declaração de variáveis:
 ```
