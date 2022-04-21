@@ -5,7 +5,7 @@ Este repositório foi criado para publicar os exemplos que foram construídos du
 * Fortemente tipada, incluindo tipos complexos complex64, complex128, para programação científica
 * Muito interessante porque identifica os erros no código durante a edição e não deixa programa continuar (mais seguro que C)
 * Interessante porque não deixa executar o prorama se existem variáveis sem uso, fornçando o desenvolvedor a ser organizado, rs
-* É totalmente case sensitive, tanto no código quanto nas letras, ‘a’ <> ‘A’
+* É totalmente case sensitive, tanto no código quanto nas letras, 'a' é diferente de 'A'
 * Utilizada em cenários tecnológicos atuais (2022) incluindo: 
 > 1. Cloud applications
 > 2. Web development
