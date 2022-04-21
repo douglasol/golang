@@ -19,6 +19,10 @@ Utilizei o Visual Studio Code com o pacote Go:
 * Instalar Go do site https://go.dev/
 * Instalar o pacote Go no VSC
 
+Onde estudar
+O melhor local para encontrar material sobre Go é https://go.dev/learn/
+Existem vários vídeos no Youtube sobre o assunto, comece com os beginners.
+
 Exemplos:
 
 [Exemplo1:]
