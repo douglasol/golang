@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
-
 func main() {
 	//var nome string
 
@@ -127,7 +122,7 @@ func main() {
 			return 'a' + (r-'a'+13)%26
 		}
 		return r
-	}*/
+	}
 
 	mapa := func(r rune) rune {
 		switch r {
@@ -138,5 +133,5 @@ func main() {
 		}
 	}
 	fmt.Println(strings.Map(mapa, "Ola mamae!..."))
-
+	*/
 }
