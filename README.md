@@ -26,7 +26,7 @@ Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Yout
 # Exemplos:
 
 [Exemplo1:]
-(https://github.com/douglasol/golang/tree/main/Exemplo1):
+(https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo1):
 Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). Todos os testes encontram-se no mesmo arquivo, em ordem sequencial e foram comentados para não gerar confusão. Para testar, descomente a parte que deseja  e em seguida execute  o go run. no terminal do VSC.
 
 
