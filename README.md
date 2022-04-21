@@ -60,6 +60,7 @@ var (
 )
 ```
 
+
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
 * [golang.org](https://golang.org)
