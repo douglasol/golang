@@ -51,4 +51,8 @@ Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C.
 > **numeric.toString()** ficou mais chato com **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
 
 ## Documentação adicional
-Um doc com os recursos foi criado no [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
+>[Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
+>[golang.org](https://goland.org)
+>[Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
+
+
