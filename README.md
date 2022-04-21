@@ -42,17 +42,17 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 ## O que ficou faltando para ser TOP
 Como desenvolvedor Genexus, alguns recursos automatizados são importantes e ainda não foram identificados na linguagem, destacamos:
 
-> **domains**: criação de nomes para tipos específicos
-> **toJson e fromJson**: para parsear um tipo em formato JSON
+* **domains**: criação de nomes para tipos específicos
+* **toJson e fromJson**: para parsear um tipo em formato JSON
 
 ## O que ficou mais chato
 Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso. Com linguagem mais focada em lowcode como Genexus, a coisa pega um pouco porque tem muito código para se produzir algo bem simples.
 
-> **numeric.toString()** ficou mais chato com **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
+*  **numeric.toString()** ficou mais chato com **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
 
 ## Documentação adicional
->[Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
->[golang.org](https://goland.org)
->[Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
+* [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
+* [golang.org](https://goland.org)
+* [Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
 
 
