@@ -65,7 +65,7 @@ Definir se será um inteiro, ou inteiro sem sinal, ou real, string, ..., é part
 * complex64 
 * complex128
 ````
-* [Tipos básicos](https://go.dev/tour/basics/11)
+* [Tipos básicos](https://go.dev/ref/spec#Types)
 
 ## const
 Porque constantes? Os valores são definidos no momento da compilação e não execução, são imutáveis, representam valores fixos, melhora a codificação do sistema.
