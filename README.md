@@ -43,8 +43,8 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
-* [golang.org](https://golang.org)
-* [go.dev](https://go.dev/)
+* [Go Language Specification](https://go.dev/ref/spec)
+* [golang.org](https://golang.org) or [go.dev](https://go.dev/)
 * [Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
 
 # Boas praticas
