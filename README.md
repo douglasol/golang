@@ -64,7 +64,6 @@ Definir se será um inteiro, ou inteiro sem sinal, ou real, string, ..., é part
 * complex64 
 * complex128
 ````
-* 
 * [Tipos básicos](https://go.dev/tour/basics/11)
 
 ## var
@@ -86,7 +85,7 @@ var (
 ```
 
 ## strings
-Uma string já é decomposta em caracteres automaticamente
+Uma string já é decomposta em caracteres automaticamente. Aspas ("") são usadas para definir strings. Apóstrofe um único caracter ('')
 ```
 texto := "Isso é uma string"
 fmt.Printf("%v %v %T", string(texto[2], texto[2], texto[2]
