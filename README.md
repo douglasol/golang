@@ -50,7 +50,10 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 Talvez isso se transforme em um capítulo a parte, pois muita coisa deve ser definida para que se produza um bom guia de programação.
 
 ## tipos
-Go possui vários tipos de unsigned int (uint) para inteiros e outros tipos.
+Definição de tipos em linguagens do tipo Go não é tarefa simples. O cenário de uso, com as exceções deve ser pensada antes de se definir o tamanho do número que deverá ser armazenado. Em caso de overflow muita coisa pode acontecer, como um prejuízo de U$ 137 milhões ([Curiosidade: space error](https://hownot2code.com/2016/09/02/a-space-error-370-million-for-an-integer-overflow/))
+
+Definir se será um inteiro, ou inteiro sem sinal, ou real, string, ..., é parte do problema. O tamanho do valor a ser armazenado é outro.
+
 ```
 * uint8 or byte     0-255
 * uint16            0-65535
@@ -61,7 +64,7 @@ Go possui vários tipos de unsigned int (uint) para inteiros e outros tipos.
 * complex64 
 * complex128
 ````
-* [Curiosidade: space error](https://hownot2code.com/2016/09/02/a-space-error-370-million-for-an-integer-overflow/)
+* 
 * [Tipos básicos](https://go.dev/tour/basics/11)
 
 ## var
