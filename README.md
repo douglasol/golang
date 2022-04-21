@@ -89,10 +89,11 @@ Uma string já é decomposta em caracteres automaticamente. Aspas ("") são usad
 ```
 texto := "Isso é uma string"
 fmt.Printf("%v %v %T", string(texto[2], texto[2], texto[2]
+```
 
 > result: s 115 uint8
 > na posição [2] da string temos uma letra 's', equivalente ao valor 115 do tipo uint8, representação numérica do caracter. Porém um caracter em Go é definido como uint32 (?), por causa do UTF32
-```
+
 
 ## Considerações de um desenvolvedor lowcode chato
 Desenvolver em um ambiente lowcode, como Genexus por exemplo, faz com que fiquemos um pouco mal acostumados com o fato de ter que escrever muito para obter algum resultado. 
