@@ -27,6 +27,12 @@ Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Yout
 
 [Exemplo1](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo1) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). Todos os testes encontram-se no mesmo arquivo, em ordem sequencial e foram comentados para não gerar confusão. Para testar, descomente a parte que deseja  e em seguida execute  o go run. no terminal do VSC.
 
+[Exemplo2](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo2) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+
+[Exemplo3](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo3) Cobre o assunto divisão do main em packages, porém ainda dentro do mesmo pacote mai.
+
+[Exemplo4](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo4) Cobre o assunto de criação de packages em pastas, arquivos separados e comando import.
+
 
 ## Documentação adicional
 Um doc com os recursos foi criado no [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
