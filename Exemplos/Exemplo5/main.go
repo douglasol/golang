@@ -9,7 +9,6 @@ func main() {
 	for _, pessoa := range pessoas {
 		fmt.Printf("%v, %v\n", pessoa["nome"], pessoa["sobrenome"])
 	}
-
 }
 
 func pessoaADD(nome string, sobrenome string) map[string]string {
