@@ -16,9 +16,10 @@ Este repositório foi criado para publicar os exemplos que foram construídos du
 ## Setup
 Utilizei o Visual Studio Code com o pacote Go:
 
-* Instalar o Visual Studio Code
-* Instalar Go do site https://go.dev/
+* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
+* Instalar Go baixando do site https://go.dev/
 * Instalar o pacote Go no VSC
+* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
 ## Onde estudar
 Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners.
