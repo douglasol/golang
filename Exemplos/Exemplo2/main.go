@@ -1,5 +1,16 @@
 package main
 
+//6) global
+/*
+var nomes []string
+
+func nomesGlobal() {
+	nomes = append(nomes, "Zé")
+	nomes = append(nomes, "João")
+	nomes = append(nomes, "Maria")
+}
+*/
+
 func main() {
 
 	//1) alomamae()
@@ -33,6 +44,14 @@ func main() {
 			fmt.Printf("%v\n", nome)
 		}
 		for _, nome := range nomeslower {
+			fmt.Printf("%v\n", nome)
+		}
+	*/
+
+	//6: nomes global (descomente o inicio do programa)
+	/*
+		nomesGlobal()
+		for _, nome := range nomes {
 			fmt.Printf("%v\n", nome)
 		}
 	*/
