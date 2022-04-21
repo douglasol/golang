@@ -1,14 +1,14 @@
 package main
 
+import "fmt"
+
 func main() {
-	//var nome string
 
 	//input:
-	/*
-		fmt.Println("Forneça seu nome:")
-		fmt.Scan(&nome)
-		fmt.Printf("Ola %v", nome)
-	*/
+	var nome string
+	fmt.Println("Forneça seu nome:")
+	fmt.Scan(&nome)
+	fmt.Printf("Ola %v", nome)
 
 	// concatenacao:
 	/*
