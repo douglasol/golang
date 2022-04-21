@@ -46,9 +46,14 @@ Talvez isso se transforme em um capítulo a parte, pois muita coisa deve ser def
 ## uint
 Go possui vários tipos de unsigned int (uint)
 ```
-* uint8 or byte      0-255
-* uint16      0-65535
-* uint32      0-4294967295
+* uint8 or byte     0-255
+* uint16            0-65535
+* uint32 or rune    0-4294967295
+* string
+* float32 
+* float64
+* complex64 
+* complex128
 ````
 [Curiosidade](https://hownot2code.com/2016/09/02/a-space-error-370-million-for-an-integer-overflow/)
 
