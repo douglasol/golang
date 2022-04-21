@@ -1,11 +1,12 @@
 # golang
 Este repositório foi criado para publicar os exemplos que foram construídos durante a aprendizagem da linguagem Go. 
 
-* Linguagem igual a C, mesmos operadores &&, ||, !=
-* Interessante porque identifica erros e não deixa programa continuar (mais seguro que C)
-* Interessante porque não deixa executar se tem variáveis sem uso
+* Linguagem igual a C, mesmos operadores &&, ||, !=, incluindo os operadores binários ! | & ^ << >>
+* Fortemente tipada, incluindo tipos complexos complex64, complex128, para programação científica
+* Muito interessante porque identifica os erros no código durante a edição e não deixa programa continuar (mais seguro que C)
+* Interessante porque não deixa executar o prorama se existem variáveis sem uso, fornçando o desenvolvedor a ser organizado, rs
 * É totalmente case sensitive, tanto no código quanto nas letras, ‘a’ <> ‘A’
-* Utilizada em cenários tecnológicos recentes, incluindo:
+* Utilizada em cenários tecnológicos atuais (2022) incluindo: 
 > 1. Cloud applications
 > 2. Web development
 > 3. Database implementations
@@ -79,6 +80,15 @@ var (
     sobrenome string
     idade uint
 )
+```
+
+## strings
+Uma string já é decomposta em caracteres automaticamente
+```
+texto := "Isso é uma string"
+fmt.Printf("%v %v %T", string(texto[2], texto[2], texto[2]
+> result: s 115 uint8
+> na posição [2] da string temos uma letra **s**, equivalente ao valor 115 do tipo uint8 representação numérica do caracter
 ```
 
 ## Considerações de um desenvolvedor lowcode chato
