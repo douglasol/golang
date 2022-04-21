@@ -2,7 +2,7 @@
 Este repositório foi criado para publicar os exemplos que foram construídos durante a aprendizagem da linguagem Go. 
 
 * Criada na Google para substituir a programação Python, C/C++ e Java, por uma linguagem mais segura, concorrente e com compilação ágil
-* Linguagem igual a C, mesmos operadores &&, ||, !=, incluindo os operadores binários ! | & ^ << >>
+* Linguagem igual a C/Java, com os mesmos operadores &&, ||, !=, incluindo os operadores binários ! | & ^ << >>
 * Fortemente tipada, incluindo tipos complexos complex64, complex128, para programação científica
 * Muito interessante porque identifica os erros no código durante a edição e não deixa programa continuar (mais seguro que C)
 * Interessante porque não deixa executar o prorama se existem variáveis sem uso, fornçando o desenvolvedor a ser organizado, rs
@@ -66,6 +66,12 @@ Definir se será um inteiro, ou inteiro sem sinal, ou real, string, ..., é part
 * complex128
 ````
 * [Tipos básicos](https://go.dev/tour/basics/11)
+
+## const
+Porque constantes? Os valores são definidos no momento da compilação e não execução, são imutáveis, representam valores fixos, melhora a codificação do sistema.
+```
+const CONFIG_HTTPPORT int = 80
+```
 
 ## var
 Declaração de variáveis:
