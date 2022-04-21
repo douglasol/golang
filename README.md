@@ -31,4 +31,4 @@ Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for,
 
 
 # Documentação adicional
-Um doc com os recursos foi criado no Google Docs: https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit#
+Um doc com os recursos foi criado no Google Docs: https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing
