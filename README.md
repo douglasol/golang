@@ -37,10 +37,12 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo5](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo5) Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
+[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) Cobre o tema de criação de tipos estruturados com struct. Muito interessante.
+
 ## O que ficou faltando para ser TOP
 Como desenvolvedor Genexus, alguns recursos automatizados são importantes e ainda não foram identificados na linguagem, destacamos:
 
-> **domains**: criação de tipos específicos
+> **domains**: criação de nomes para tipos específicos
 > **toJson e fromJson**: para parsear um tipo em formato JSON
 
 ## O que ficou mais chato
