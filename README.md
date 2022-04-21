@@ -21,5 +21,5 @@ Utilizei o Visual Studio Code com o pacote Go:
 
 
 Exemplos:
-[Exemplo1](https://github.com/douglasol/golang/tree/main/Exemplo1):
+(https://github.com/douglasol/golang/tree/main/Exemplo1):
 Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). Todos os testes encontram-se no mesmo arquivo, em ordem sequencial, e foram comentados para não produzir uma confusão. Descomente a parte que deseja testar e em seguida execute no terminal o go run.
