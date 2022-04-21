@@ -52,7 +52,8 @@ Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C.
 
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
-* [golang.org](https://goland.org)
+* [golang.org](https://golang.org)
+* [go.dev](https://go.dev/)
 * [Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
 
 
