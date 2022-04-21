@@ -39,16 +39,43 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) Cobre o tema de criação de tipos estruturados com struct. Muito interessante.
 
-## O que ficou faltando para ser TOP
-Como desenvolvedor Genexus, alguns recursos automatizados são importantes e ainda não foram identificados na linguagem, destacamos:
+## Considerações de um desenvolvedor lowcode chato
+Desenvolver em um ambiente lowcode, como Genexus por exemplo, faz com que fiquemos um pouco mal acostumados com o fato de ter que escrever muito para obter algum resultado. 
 
-> **domains**: criação de nomes para tipos específicos
-> **toJson e fromJson**: para parsear um tipo em formato JSON
+Quando aprendemos uma linguagem nova tentamos encontrar aquilo que nos faz mais falta.
 
-## O que ficou mais chato
-Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso. Com linguagem mais focada em lowcode como Genexus, a coisa pega um pouco porque tem muito código para se produzir algo bem simples.
+###O que ficou faltando para ser TOP
+Senti falta de alguns recursos que automatizam o código, e auxiliam na padronização da programação. 
 
-> **numeric.toString()** ficou mais chato com **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
+*  **domains**: criação de nomes para tipos específicos
+* **toJson e fromJson**: para parsear um tipo em formato JSON
+
+### O que ficou mais chato
+Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso, mas novamente, quem se acostumou num cenário mais lowcode prefere escrever menos e obter diretamente o resultado.
+Até entendo Go na parte dos tipos de dados, visto que é uma linguagem fortemente tipada que objetiva otimizar o uso da memória, mas isso se traduz em muito código.
+
+* (gx) ***numeric.toString()** ficou mais chato em Go: **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
 
 ## Documentação adicional
 Um doc com os recursos foi criado no [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
+
+# Boas praticas
+Talvez isso se transforme em um capítulo a parte, pois muita coisa deve ser definida para que se produza um bom guia de programação.
+
+## var
+Declaração de variáveis:
+```
+var nome string
+var sobrenome string
+var idade uint
+```
+
+fica melhor com:
+
+```
+var (
+    nome string
+    sobrenome string
+    idade uint
+)
+```
