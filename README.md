@@ -31,7 +31,7 @@ Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Yout
 
 ## Exemplos:
 Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequencial), e para não virar uma bagunça, fui comentando cada teste separadamente. Se você executar não vai aparecer nada, pois será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
-Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run <nome>.go**
+Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
 
 [Exemplo1](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo1) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
@@ -59,7 +59,7 @@ Algumas pastas incluem mais de um arquivo go, neste caso para executar o program
 * (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
 
 ## Documentação adicional
-* [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
+* [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
 * [Go Language Specification](https://go.dev/ref/spec)
 * [golang.org](https://golang.org) or [go.dev](https://go.dev/)
 * [Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
