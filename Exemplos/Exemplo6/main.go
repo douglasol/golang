@@ -20,14 +20,6 @@ func main() {
 }
 
 func pessoaADD(nome string, sobrenome string, email string, idade uint) Pessoa {
-	/*
-		var pessoa Pessoa
-		pessoa.nome = nome
-		pessoa.sobrenome = sobrenome
-		pessoa.email = email
-		pessoa.idade = idade
-
-	*/
 	var pessoa = Pessoa{
 		nome:      nome,
 		sobrenome: sobrenome,
@@ -35,5 +27,4 @@ func pessoaADD(nome string, sobrenome string, email string, idade uint) Pessoa {
 		idade:     idade,
 	}
 	return pessoa
-
 }
