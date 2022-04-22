@@ -1,6 +1,4 @@
-# O que é?
-
-Este repositório foi criado para publicar os exemplos que foram programados em GO, num primeiro contato com a linguagem. É uma ordenação sequencial para a aprendizagem desta linguagem.
+Este repositório foi criado para publicar os exemplos, programados em GO, gerados a partir de um primeiro contato com a linguagem. Trata-se de um passo-a-passo, ordenado sequencialmente, com exemplos que permitem testar e compreender um pouquinho o que é essa linguagem. Não é o guia definitivo de Go, nem pretende ser, mas foi o que eu utilizei para entender um pouco desta linguagem, aprender é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real. 
 
 ## O Que é Go?
 
@@ -18,8 +16,10 @@ Este repositório foi criado para publicar os exemplos que foram programados em 
 > 5. Utilities
 > 6. IoT devices
 
+Como tudo hoje em dia se refere a nuvem, convém uma linguagem que explore todos os recursos deste ambiente.
+
 ## Setup
-Utilizei o Visual Studio Code com o pacote Go:
+Utilizei o Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
 
 >* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
 >* Instalar Go baixando do site https://go.dev/
@@ -27,7 +27,7 @@ Utilizei o Visual Studio Code com o pacote Go:
 >* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
 ## Onde estudar
-Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners.
+Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência, porém, sempre fica aquela ansiedade de ver aquilo que já sabemos em outra linguagem, sendo feita em Go. No meu caso tive que me conter até chegar ao tema struct para dai abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
 
 ## Exemplos:
 Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequencial), e para não virar uma bagunça, fui comentando cada teste separadamente. Se você executar não vai aparecer nada, pois será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
