@@ -39,11 +39,13 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo5](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo5) Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
-[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) (main.go) Explora o tema de criação de tipos estruturados com struct. Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis (colecao.go). Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct.
+[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) (main.go) Explora o tema de criação de tipos estruturados com struct. Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis (colecao.go). Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. (colecaocarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
 
 [Exemplo7](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo7) Trata do assunto de manipulação de strings
 
 [Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor.
+
+[Exemplo9](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo9) JSON é o assunto. (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
 
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
