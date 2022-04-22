@@ -113,6 +113,7 @@ Quando aprendemos uma linguagem nova tentamos encontrar aquilo que nos faz mais 
 
 * **domains**: criação de nomes para tipos específicos
 * **toJson e fromJson**: para parsear um tipo em formato JSON
+* **concorrência** no acesso a operações no banco LUW, sessão BD
 
 O que ficou faltando para ser TOP
 
