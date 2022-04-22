@@ -1,4 +1,5 @@
 /* basico da linguagem */
+
 package main
 
 import "fmt"
