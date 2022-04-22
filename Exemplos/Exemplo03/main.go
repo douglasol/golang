@@ -1,4 +1,5 @@
 /* funções em separado */
+
 package main
 
 import "fmt"
