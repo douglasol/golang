@@ -41,6 +41,10 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) Cobre o tema de criação de tipos estruturados com struct. Muito interessante.
 
+[Exemplo7](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo7) Trata do assunto de manipulação de strings
+
+[Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor.
+
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
 * [Go Language Specification](https://go.dev/ref/spec)
