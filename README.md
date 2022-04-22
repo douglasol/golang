@@ -39,7 +39,11 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo5](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo5) Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
-[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) (main.go) Explora o tema de criação de tipos estruturados com struct. Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis (colecao.go). Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. (colecaocarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
+[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
+* (main.go) Conceitos básicos de struct
+* (colecao.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
+* (colecaocarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
+* (colecaoforeach.go) Percorre uma coleção (conceito for in)
 
 [Exemplo7](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo7) Trata do assunto de manipulação de strings
 
