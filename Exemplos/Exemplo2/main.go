@@ -1,3 +1,4 @@
+/* funções */
 package main
 
 //6) global
