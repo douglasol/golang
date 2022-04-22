@@ -1,3 +1,4 @@
+/* map */
 package main
 
 import "fmt"
