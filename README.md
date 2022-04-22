@@ -1,4 +1,8 @@
-Este repositório foi criado para publicar os exemplos, programados em GO, gerados a partir de um primeiro contato com a linguagem. Trata-se de um passo-a-passo, ordenado sequencialmente, com exemplos que permitem testar e compreender um pouquinho o que é essa linguagem. Não é o guia definitivo de Go, nem pretende ser, mas foi o que eu utilizei para entender um pouco desta linguagem, aprender é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real. 
+Este repositório foi criado para publicar os testes, a partir de um primeiro contato com a linguagem GO. O objetivo era entender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com a linguagem, e que permite compreender um pouquinho dos recursos. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco da programação com este recurso, aprender é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real. 
+
+Go é extenso e cheio de recursos, a linguagem é interessante, mas falta muita coisa para ser abordada.
+
+Caso queira participar, fique a vontade para publicar seus testes.
 
 ## O Que é Go?
 
