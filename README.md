@@ -32,7 +32,7 @@ Utilizei o Microsoft Visual Studio Code com o pacote Go para começar esta brinc
 >* Instalar o pacote Go no VSC
 >* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
-Deve existir outras IDEs interessantes, me perdoem a simplicidade.
+Devem existir outras IDEs interessantes, me perdoem a simplicidade deste primeiro cenário.
 
 ## Onde estudar
 Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência no estudo, porém, sempre fica aquela ansiedade de ver em Go, aquilo que já sabemos em outra linguagem. No meu caso tive que conter a ansiedade até chegar ao tema *struct*, para abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
