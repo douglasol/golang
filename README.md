@@ -149,4 +149,5 @@ Aqui uma listinha do que eu acho que está faltando:
 * **toJson e fromJson**: para parsear um tipo em formato JSON, acho que já consegui resolver.
 * **concorrência** na operação de gravação de atualizações de dados no banco, é importante manter a integridade dos registros, quando duas ou mais pessoas operam sobre um mesmo registro ao mesmo tempo.
 * operaçoes de conversão de tipo são um pouco complexas em Go, **numeric.toString()** ficou mais chato: **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto, mas acho que isso se resolve.
+* cada linguagem possui seu nível de chatice, Go já me mostrou uma, tipo em um struct a primeira letra do campo em maiúsculo ou minúsculo faz uma grande diferença (observei isso na conversão Json). Não sei se existe alguma razão miraculosa para isso, ainda não descobri.
 
