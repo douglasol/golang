@@ -51,7 +51,7 @@ Algumas pastas incluem mais de um arquivo go, neste caso para executar o program
 
 [Exemplo7](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo7) Trata do assunto de manipulação de strings
 
-[Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor.
+[Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
 
 [Exemplo9](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo9) JSON é o assunto. 
 * (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. 
