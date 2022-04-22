@@ -23,11 +23,11 @@ var Db *sql.DB
 
 /* config */
 var (
-	server   = "DESKTOP-3NV3626"
+	server   = "** database **"
 	port     = 1433
-	user     = "sa"
-	password = "kjdfnm2"
-	database = "VOT44"
+	user     = "** user **"
+	password = "** password **"
+	database = "** database **"
 )
 
 var Cursores []Cursor
