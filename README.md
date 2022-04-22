@@ -139,12 +139,13 @@ fmt.Printf("%v %v %T", string(texto[2], texto[2], texto[2]
 
 
 ## Considerações de um desenvolvedor lowcode chato
-Não foi nada complicado entender Go, pois o meu background é de um professor que ensinou por muito tempo C, C++, Java para meus aluninhos. Todos sofriam muito em C devio a tipagem da linguagem, e recebi com surpresa e muito interesse como Go resolveu isso, ficou muito mais simples. Porém, inclui também no meu portfólio um modelo de programação low-code com Genexus (programadores em geral criticam muito, rs), mas encontrei muito mérito neste recurso. O problema é que em cenários low-code se busca programar muito pouco para se obter muito resultado, e isso faz com que fiquemos um pouco mal acostumados. E ao retornar a programação hardcore e ter que se escrever muito para obter algum resultado, fica aquela pulga nos dizendo que talvez seja melhor buscar um cenário mais automatizado.
+Não foi nada complicado entender Go, pois o meu background é de um professor que ensinou por muito tempo C, C++, Java para meus aluninhos. Todos sofriam muito em C devio a tipagem da linguagem, e recebi com surpresa e muito interesse como Go resolveu isso, ficou muito mais simples. Porém, inclui também no meu portfólio um modelo de programação low-code com Genexus (programadores em geral criticam muito, rs), mas encontrei muito mérito neste recurso. O problema é que em cenários low-code se busca programar muito pouco para se obter muito resultado, e isso faz com que fiquemos um pouco mal acostumados. E ao retornar a programação hardcode e ter que se escrever muito para obter algum resultado, fica aquela pulga nos dizendo que talvez seja melhor buscar um cenário mais automatizado.
 
 Não identifiquei ainda uma ferramenta que faça isso com Go, me avise se houver alguma.
 
 Aqui uma listinha do que eu acho que está faltando:
 
+* não vou incluir normalização de tabelas, queries escritas automaticamente conforme se escolhe o que se quer na tabela, porque ai já seria algo, acredito, 'impossível' em uma programação hardcode, mas se tiver alguma coisa nesse sentido, vou ficar muito feliz
 * **domains**: criação de nomes para tipos específicos para facilitar a manutenção do sistema como um todo. Por exemplo, se eu defino um nome como Varchar(128), gostaria que todos os programas pudessem ser corrigidos, caso queira alterar para Varchar(100).
 * **toJson e fromJson**: para parsear um tipo em formato JSON, acho que já consegui resolver.
 * **concorrência** na operação de gravação de atualizações de dados no banco, é importante manter a integridade dos registros, quando duas ou mais pessoas operam sobre um mesmo registro ao mesmo tempo.
