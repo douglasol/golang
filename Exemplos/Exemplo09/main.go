@@ -1,3 +1,5 @@
+/* JSON */
+
 package main
 
 import (
