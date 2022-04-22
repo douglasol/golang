@@ -1,5 +1,6 @@
-# golang
-Este repositório foi criado para publicar os exemplos que foram construídos durante a aprendizagem da linguagem Go. 
+Este repositório foi criado para publicar os exemplos, programados em GO, gerados a partir de um primeiro contato com a linguagem. Trata-se de um passo-a-passo, ordenado sequencialmente, com exemplos que permitem testar e compreender um pouquinho o que é essa linguagem. Não é o guia definitivo de Go, nem pretende ser, mas foi o que eu utilizei para entender um pouco desta linguagem, aprender é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real. 
+
+## O Que é Go?
 
 * Criada na Google para substituir a programação Python, C/C++ e Java, por uma linguagem mais segura, concorrente e com compilação ágil
 * Linguagem igual a C/Java, com os mesmos operadores &&, ||, !=, incluindo os operadores binários ! | & ^ << >>
@@ -15,19 +16,22 @@ Este repositório foi criado para publicar os exemplos que foram construídos du
 > 5. Utilities
 > 6. IoT devices
 
-## Setup
-Utilizei o Visual Studio Code com o pacote Go:
+Como tudo hoje em dia se refere a nuvem, convém uma linguagem que explore todos os recursos deste ambiente.
 
-* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
-* Instalar Go baixando do site https://go.dev/
-* Instalar o pacote Go no VSC
-* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
+## Setup
+Utilizei o Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
+
+>* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
+>* Instalar Go baixando do site https://go.dev/
+>* Instalar o pacote Go no VSC
+>* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
 ## Onde estudar
-Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners.
+Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência, porém, sempre fica aquela ansiedade de ver aquilo que já sabemos em outra linguagem, sendo feita em Go. No meu caso tive que me conter até chegar ao tema struct para dai abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
 
 ## Exemplos:
 Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequencial), e para não virar uma bagunça, fui comentando cada teste separadamente. Se você executar não vai aparecer nada, pois será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
+Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run <nome>.go**
 
 [Exemplo1](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo1) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
@@ -39,11 +43,20 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo5](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo5) Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
-[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) Cobre o tema de criação de tipos estruturados com struct. Muito interessante.
+[Exemplo6](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo6) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
+* (main.go) Conceitos básicos de struct
+* (colecao.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
+* (colecaocarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
+* (colecaoforin.go) Percorre uma coleção (conceito for in)
 
 [Exemplo7](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo7) Trata do assunto de manipulação de strings
 
-[Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor.
+[Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
+
+[Exemplo9](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo9) JSON é o assunto. 
+* (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. 
+* (colorjson.go) utiliza um formatador de JSON fornecido por um desenvolvedor para apresentar o JSON.
+* (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
 
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
