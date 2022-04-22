@@ -1,3 +1,4 @@
+/* colecoes */
 package main
 
 import (
