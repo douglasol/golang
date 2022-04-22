@@ -1,8 +1,10 @@
-Este repositório foi criado para publicar os testes, a partir de um primeiro contato com a linguagem GO. O objetivo era entender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com a linguagem, e que permite compreender um pouquinho dos recursos. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco da programação com este recurso, aprender é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real. 
+Este repositório foi criado para publicar os testes, a partir de um primeiro contato com a linguagem GO. O objetivo era entender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com a linguagem, e que permite compreender um pouquinho dos recursos. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco a respeito da estrutura de programação, execução e da dinâmica com Go.
 
-Go é extenso e cheio de recursos, a linguagem é interessante, mas falta muita coisa para ser abordada.
+Aprender Go é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia-a-dia de trabalho. Quem sabe sai alguma coisa assim por aqui.
 
-Caso queira participar, fique a vontade para publicar seus testes.
+Go é extenso e cheio de recursos, os pacotes são imensos e a linguagem muito interessante. Para um tutorial mais sério, falta muita coisa para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou pra tras.
+
+Caso queira participar, fique a vontade para publicar seus testes, seja benvindo.
 
 ## O Que é Go?
 
@@ -23,19 +25,28 @@ Caso queira participar, fique a vontade para publicar seus testes.
 Como tudo hoje em dia se refere a nuvem, convém uma linguagem que explore todos os recursos deste ambiente.
 
 ## Setup
-Utilizei o Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
+Utilizei o Microsoft Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
 
 >* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
 >* Instalar Go baixando do site https://go.dev/
 >* Instalar o pacote Go no VSC
 >* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
+Deve existir outras IDEs interessantes, me perdoem a simplicidade.
+
 ## Onde estudar
-Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência, porém, sempre fica aquela ansiedade de ver aquilo que já sabemos em outra linguagem, sendo feita em Go. No meu caso tive que me conter até chegar ao tema struct para dai abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
+Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência no estudo, porém, sempre fica aquela ansiedade de ver em Go, aquilo que já sabemos em outra linguagem. No meu caso tive que conter a ansiedade até chegar ao tema *struct*, para abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
+
+Por isso nem vou recomendar algum para você começar, pois vai depender do seu ritmo e interesse. Entre no Youtube e digite 'GoLang Course' e vai aparecer um montão para voce escolher.
 
 ## Exemplos:
-Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequencial), e para não virar uma bagunça, fui comentando cada teste separadamente. Se você executar não vai aparecer nada, pois será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
+É uma pasta na qual criei várias outras, em ordem sequencial, contendo os temas específicos. Do mais básico e simples para os temas mais cabeludos.
+
+Nos arquivos de **exemplo** incluí todos os testes executados, e para não virar uma bagunça, fui comentando, em um mesmo arquivo os testes separadamente. Isso nos primeiros exemplos. Depois fui criando arquivos .go em separado, devido a complexidade dos temas. Se ao executar não  aparecer nada, será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
+
 Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
+
+Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tudo está documentado aqui: [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
 
 [Exemplo01](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo01) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
