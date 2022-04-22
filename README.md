@@ -139,17 +139,14 @@ fmt.Printf("%v %v %T", string(texto[2], texto[2], texto[2]
 
 
 ## Considerações de um desenvolvedor lowcode chato
-Desenvolver em um ambiente lowcode, como Genexus por exemplo, faz com que fiquemos um pouco mal acostumados com o fato de ter que escrever muito para obter algum resultado. 
+Não foi nada complicado entender Go, pois o meu background é de um professor que ensinou por muito tempo C, C++, Java para meus aluninhos. Todos sofriam muito em C devio a tipagem da linguagem, e recebi com surpresa e muito interesse como Go resolveu isso, ficou muito mais simples. Porém, inclui também no meu portfólio um modelo de programação low-code com Genexus (programadores em geral criticam muito, rs), mas encontrei muito mérito neste recurso. O problema é que em cenários low-code se busca programar muito pouco para se obter muito resultado, e isso faz com que fiquemos um pouco mal acostumados. E ao retornar a programação hardcore e ter que se escrever muito para obter algum resultado, fica aquela pulga nos dizendo que talvez seja melhor buscar um cenário mais automatizado.
 
-Quando aprendemos uma linguagem nova tentamos encontrar aquilo que nos faz mais falta. Senti falta de alguns recursos que automatizam o código, e auxiliam na padronização da programação. 
+Não identifiquei ainda uma ferramenta que faça isso com Go, me avise se houver alguma.
 
-* **domains**: criação de nomes para tipos específicos
-* **toJson e fromJson**: para parsear um tipo em formato JSON
-* **concorrência** no acesso a operações no banco LUW, sessão BD
+Aqui uma listinha do que eu acho que está faltando:
 
-O que ficou faltando para ser TOP
+* **domains**: criação de nomes para tipos específicos para facilitar a manutenção do sistema como um todo. Por exemplo, se eu defino um nome como Varchar(128), gostaria que todos os programas pudessem ser corrigidos, caso queira alterar para Varchar(100).
+* **toJson e fromJson**: para parsear um tipo em formato JSON, acho que já consegui resolver.
+* **concorrência** na operação de gravação de atualizações de dados no banco, é importante manter a integridade dos registros, quando duas ou mais pessoas operam sobre um mesmo registro ao mesmo tempo.
+* operaçoes de conversão de tipo são um pouco complexas em Go, **numeric.toString()** ficou mais chato: **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto, mas acho que isso se resolve.
 
-Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso, mas novamente, quem se acostumou num cenário mais lowcode prefere escrever menos e obter diretamente o resultado.
-Até entendo Go na parte dos tipos de dados, visto que é uma linguagem fortemente tipada que objetiva otimizar o uso da memória, mas isso se traduz em muito código.
-
-* (gx) ***numeric.toString()** ficou mais chato em Go: **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
