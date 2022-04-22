@@ -1,5 +1,8 @@
-# golang
-Este repositório foi criado para publicar os exemplos que foram construídos durante a aprendizagem da linguagem Go. 
+# O que é?
+
+Este repositório foi criado para publicar os exemplos que foram programados em GO, num primeiro contato com a linguagem. É uma ordenação sequencial para a aprendizagem desta linguagem.
+
+## O Que é Go?
 
 * Criada na Google para substituir a programação Python, C/C++ e Java, por uma linguagem mais segura, concorrente e com compilação ágil
 * Linguagem igual a C/Java, com os mesmos operadores &&, ||, !=, incluindo os operadores binários ! | & ^ << >>
@@ -18,10 +21,10 @@ Este repositório foi criado para publicar os exemplos que foram construídos du
 ## Setup
 Utilizei o Visual Studio Code com o pacote Go:
 
-* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
-* Instalar Go baixando do site https://go.dev/
-* Instalar o pacote Go no VSC
-* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
+>* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
+>* Instalar Go baixando do site https://go.dev/
+>* Instalar o pacote Go no VSC
+>* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
 ## Onde estudar
 Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners.
@@ -49,7 +52,10 @@ Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequenc
 
 [Exemplo8](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo8) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor.
 
-[Exemplo9](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo9) JSON é o assunto. (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
+[Exemplo9](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo9) JSON é o assunto. 
+* (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. 
+* (colorjson.go) utiliza um formatador de JSON fornecido por um desenvolvedor para apresentar o JSON.
+* (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
 
 ## Documentação adicional
 * [Google Docs](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
