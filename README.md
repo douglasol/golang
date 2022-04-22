@@ -1,10 +1,10 @@
-Este repositório foi criado para publicar os testes, a partir de um primeiro contato com a linguagem GO. O objetivo era entender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com a linguagem, e que permite compreender um pouquinho dos recursos. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco a respeito da estrutura de programação, execução e da dinâmica com Go.
+Este repositório foi criado para publicar os programas em Go, resultados de um primeiro contato com a linguagem. O objetivo era desenvolver testes para compreender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com esta linguagem. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco a respeito da estrutura de programação, execução e da dinâmica com Go, seus pontos fortes e também, alguns inconvenientes.
 
-Aprender Go é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia-a-dia de trabalho. Quem sabe sai alguma coisa assim por aqui.
+Aprender Go é algo um pouco mais sério, pois vai exigir uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia-a-dia de trabalho. Quem sabe sai alguma coisa assim por aqui. Coisa que se alcança fazendo.
 
-Go é extenso e cheio de recursos, os pacotes são imensos e a linguagem muito interessante. Para um tutorial mais sério, falta muita coisa para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou pra tras.
+A linguagem Go é extensa e cheia de recursos, os pacotes são completos e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou pra tras.
 
-Caso queira participar, fique a vontade para publicar seus testes, seja benvindo.
+Caso queira participar, seja benvindo, fique a vontade para publicar seus testes.
 
 ## O Que é Go?
 
