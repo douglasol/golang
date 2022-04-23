@@ -66,15 +66,15 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 * (structforin.go) Percorre uma coleção (conceito for in)
 * (slicemethodsteste.go) Mostra as funções programadas no package **slicemethods**, para operação de coleções com slices.
 
-
 [Exemplo07](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo07) Strings: Trata do assunto de manipulação de strings
 
 [Exemplo08](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo08) Database: A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
 
 [Exemplo09](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo09) JSON: é o assunto. 
 * (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. 
-* (colorjson.go) utiliza um formatador de JSON fornecido por um desenvolvedor para apresentar o JSON.
-* (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
+* (jsoncolor.go) utiliza um formatador de JSON fornecido por um desenvolvedor terceiro para apresentar o JSON formatdado.
+* (jsondb.go) Já avança criando JSON a partir do select na tabela de Pessoas.
+* (jsonmarshal.go) Exemplo do uso do método Marshal para formatação de JSON
 
 [Exemplo10](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo10) Web application:
 
