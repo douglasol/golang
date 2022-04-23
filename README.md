@@ -78,7 +78,7 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 
 [Exemplo10](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo10) Web application:
 
-[Exemplo11](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Files:
+[Exemplo11](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Files: Criação e leitura de arquivo texto no diretório.
 
 [Exemplo12](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Orientação a Objetos: Interfaces
 * (interface.go) Apresenta o conceito de interfaces, sendo um método Show() usado em dois structs distintos (Artigo e Livro)
