@@ -1,4 +1,10 @@
-Este repositório foi criado para publicar os exemplos, programados em GO, gerados a partir de um primeiro contato com a linguagem. Trata-se de um passo-a-passo, ordenado sequencialmente, com exemplos que permitem testar e compreender um pouquinho o que é essa linguagem. Não é o guia definitivo de Go, nem pretende ser, mas foi o que eu utilizei para entender um pouco desta linguagem, aprender é outra coisa um pouco mais séria, pois vai exigir uma abordagem mais prática em um projeto real. 
+Este repositório foi criado para publicar os programas em Go, resultados de um primeiro contato com a linguagem. O objetivo era desenvolver testes para compreender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com esta linguagem. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco a respeito da estrutura de programação, execução e da dinâmica com Go, seus pontos fortes e também, alguns inconvenientes.
+
+Aprender Go é algo um pouco mais sério, pois vai exigir uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia-a-dia de trabalho. Quem sabe sai alguma coisa assim por aqui. Coisa que se alcança fazendo.
+
+A linguagem Go é extensa e cheia de recursos, os pacotes são completos e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou pra tras.
+
+Caso queira participar, seja benvindo, fique a vontade para publicar seus testes.
 
 ## O Que é Go?
 
@@ -19,48 +25,57 @@ Este repositório foi criado para publicar os exemplos, programados em GO, gerad
 Como tudo hoje em dia se refere a nuvem, convém uma linguagem que explore todos os recursos deste ambiente.
 
 ## Setup
-Utilizei o Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
+Utilizei o Microsoft Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
 
 >* Instalar o Visual Studio Code (https://visualstudio.microsoft.com/pt-br/downloads/)
 >* Instalar Go baixando do site https://go.dev/
 >* Instalar o pacote Go no VSC
 >* Instalar o pacote GitHub no VSC para publicar seus testes aqui nesse projeto.
 
+Devem existir outras IDEs interessantes, me perdoem a simplicidade deste primeiro cenário.
+
 ## Onde estudar
-Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência, porém, sempre fica aquela ansiedade de ver aquilo que já sabemos em outra linguagem, sendo feita em Go. No meu caso tive que me conter até chegar ao tema struct para dai abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
+Oficialmente é aqui: https://go.dev/learn/, mas existem vários vídeos no Youtube sobre o assunto, comece com os beginners. Os vídeos ajudam a dar uma sequência no estudo, porém, sempre fica aquela ansiedade de ver em Go, aquilo que já sabemos em outra linguagem. No meu caso, consegui me conter até chegar ao tema *struct*, para abandonar o vídeo e começar a quebrar a cabeça com Database, Coleções, Json, e por ai vai.
+
+Por isso nem vou recomendar algum para você começar, pois vai depender do seu ritmo e interesse. Entre no Youtube e digite 'GoLang Course' e vai aparecer um montão para voce escolher.
 
 ## Exemplos:
-Nos arquivos de **exemplo** incluí todos os testes executados (em ordem sequencial), e para não virar uma bagunça, fui comentando cada teste separadamente. Se você executar não vai aparecer nada, pois será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
+É uma pasta na qual criei várias outras, em ordem sequencial, contendo os temas específicos. Do mais básico e simples para os temas mais cabeludos.
+
+Nos arquivos de **exemplo** incluí todos os testes executados, e para não virar uma bagunça, fui comentando, em um mesmo arquivo os testes separadamente. Isso nos primeiros exemplos. Depois fui criando arquivos .go em separado, devido a complexidade dos temas. Se ao executar não  aparecer nada, será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
+
 Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
+
+Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tudo está documentado aqui: [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
 
 [Exemplo01](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo01) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
-[Exemplo02](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo02) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+[Exemplo02](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo02) Functions: Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
 
-[Exemplo03](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo03) Cobre o assunto divisão do main em packages, porém ainda dentro do mesmo pacote main.
+[Exemplo03](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo03) Packages: Cobre o assunto divisão do main em packages, porém ainda dentro do mesmo pacote main.
 
-[Exemplo04](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo04) Cobre o assunto de criação de packages separados em pastas, arquivos e comando import. Cenário ideal para projetos mais complexos.
+[Exemplo04](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo04) Packages: Cobre o assunto de criação de packages separados em pastas, arquivos e comando import. Cenário ideal para projetos mais complexos.
 
-[Exemplo05](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo05) Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
+[Exemplo05](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo05) Map: Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
-[Exemplo06](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo06) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
+[Exemplo06](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo06) Structs: Explora o tema de criação de tipos estruturados com struct em vários exemplos:
 * (main.go) Conceitos básicos de struct
 * (colecao.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
 * (colecaocarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
 * (colecaoforin.go) Percorre uma coleção (conceito for in)
 
-[Exemplo07](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo07) Trata do assunto de manipulação de strings
+[Exemplo07](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo07) Strings: Trata do assunto de manipulação de strings
 
-[Exemplo08](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo08) A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
+[Exemplo08](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo08) Database: A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
 
-[Exemplo09](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo09) JSON é o assunto. 
+[Exemplo09](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo09) JSON: é o assunto. 
 * (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. 
 * (colorjson.go) utiliza um formatador de JSON fornecido por um desenvolvedor para apresentar o JSON.
 * (dbjson.go) Já avança criando JSON a partir do select na tabela de Pessoas.
 
-[Exemplo10](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo10) Web application
+[Exemplo10](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo10) Web application:
 
-[Exemplo11](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Files
+[Exemplo11](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Files:
 
 ## Documentação adicional
 * [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
@@ -124,17 +139,16 @@ fmt.Printf("%v %v %T", string(texto[2], texto[2], texto[2]
 
 
 ## Considerações de um desenvolvedor lowcode chato
-Desenvolver em um ambiente lowcode, como Genexus por exemplo, faz com que fiquemos um pouco mal acostumados com o fato de ter que escrever muito para obter algum resultado. 
+Não foi nada complicado entender Go, pois o meu background é de um professor que ensinou por muito tempo C, C++, Java para meus aluninhos. Todos sofriam muito em C devio a tipagem da linguagem, e recebi com surpresa e muito interesse como Go resolveu isso, ficou muito mais simples. Porém, inclui também no meu portfólio um modelo de programação low-code com Genexus (programadores em geral criticam muito, rs), mas encontrei muito mérito neste recurso. O problema é que em cenários low-code se busca programar muito pouco para se obter muito resultado, e isso faz com que fiquemos um pouco mal acostumados. E ao retornar a programação hardcode e ter que se escrever muito para obter algum resultado, fica aquela pulga nos dizendo que talvez seja melhor buscar um cenário mais automatizado.
 
-Quando aprendemos uma linguagem nova tentamos encontrar aquilo que nos faz mais falta. Senti falta de alguns recursos que automatizam o código, e auxiliam na padronização da programação. 
+Não identifiquei ainda uma ferramenta que faça isso com Go, me avise se houver alguma.
 
-* **domains**: criação de nomes para tipos específicos
-* **toJson e fromJson**: para parsear um tipo em formato JSON
-* **concorrência** no acesso a operações no banco LUW, sessão BD
+Aqui uma listinha do que eu acho que está faltando:
 
-O que ficou faltando para ser TOP
+* não vou incluir normalização de tabelas, queries escritas automaticamente conforme se escolhe o que se quer na tabela, porque ai já seria algo, acredito, 'impossível' em uma programação hardcode, mas se tiver alguma coisa nesse sentido, vou ficar muito feliz
+* **domains**: criação de nomes para tipos específicos para facilitar a manutenção do sistema como um todo. Por exemplo, se eu defino um nome como Varchar(128), gostaria que todos os programas pudessem ser corrigidos, caso queira alterar para Varchar(100).
+* **toJson e fromJson**: para parsear um tipo em formato JSON, acho que já consegui resolver.
+* **concorrência** na operação de gravação de atualizações de dados no banco, é importante manter a integridade dos registros, quando duas ou mais pessoas operam sobre um mesmo registro ao mesmo tempo.
+* operaçoes de conversão de tipo são um pouco complexas em Go, **numeric.toString()** ficou mais chato: **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto, mas acho que isso se resolve.
+* cada linguagem possui seu nível de chatice, Go já me mostrou uma, tipo em um struct a primeira letra do campo em maiúsculo ou minúsculo faz uma grande diferença (observei isso na conversão Json). Não sei se existe alguma razão miraculosa para isso, ainda não descobri.
 
-Go realiza suas ações baseadas em funções, assim como ocorre na linguagem C. Programadores de Java, C, C# e outras linguagens estão acostumados a isso, mas novamente, quem se acostumou num cenário mais lowcode prefere escrever menos e obter diretamente o resultado.
-Até entendo Go na parte dos tipos de dados, visto que é uma linguagem fortemente tipada que objetiva otimizar o uso da memória, mas isso se traduz em muito código.
-
-* (gx) ***numeric.toString()** ficou mais chato em Go: **strconv.FormatUint(imot64(userTicket), 10)**, é muita coisa pra fazer para se converter um número em texto
