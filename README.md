@@ -60,9 +60,12 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 
 [Exemplo06](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo06) Structs: Explora o tema de criação de tipos estruturados com struct em vários exemplos:
 * (main.go) Conceitos básicos de struct
-* (colecao.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
-* (colecaocarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
-* (colecaoforin.go) Percorre uma coleção (conceito for in)
+* (structreview.go) Apresenta todos os recursos possiveis de criação e inicialização de struct com Go, com destaque o Method que permite associar uma ou mais funções em uma estrutura. Praticamente transforma a estrutura em uma classe.
+* (structadd.go e structadd2.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
+* (structcarga) Mostra como se cria um struct simples, Pessoas, e em seguida uma variável que armazena uma coleção neste tipo  pessoas := []Pessoas{}, e na própria definição desta, se carregar os dados diretamente. 
+* (structforin.go) Percorre uma coleção (conceito for in)
+* (slicemethodsteste.go) Mostra as funções programadas no package **slicemethods**, para operação de coleções com slices.
+
 
 [Exemplo07](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo07) Strings: Trata do assunto de manipulação de strings
 
@@ -76,6 +79,11 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 [Exemplo10](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo10) Web application:
 
 [Exemplo11](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Files:
+
+[Exemplo12](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Orientação a Objetos: Interfaces
+* (interface.go) Apresenta o conceito de interfaces, sendo um método Show() usado em dois structs distintos (Artigo e Livro)
+* (interfacedupla.go) Apresenta a comparação de Area de circulo e retângulo, mostrando chamada e retorno.
+
 
 ## Documentação adicional
 * [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
