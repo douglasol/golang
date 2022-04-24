@@ -1,8 +1,8 @@
 package main
 
 import (
-	"exemplo6/slicemethods"
 	"fmt"
+	"slice05/slicemethods"
 )
 
 func main() {

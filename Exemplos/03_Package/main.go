@@ -3,8 +3,8 @@
 package main
 
 import (
-	"exemplo4/nomes"
 	"fmt"
+	"package03/nomes"
 )
 
 func main() {

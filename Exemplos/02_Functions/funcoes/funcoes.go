@@ -1,12 +1,8 @@
-package main
+package funcoes
 
 import "strings"
 
-func alomamae() {
-	println("alo mamae!")
-}
-
-func nomesGET() []string {
+func NomesGET() []string {
 	nomes := []string{}
 	nomes = append(nomes, "Zé")
 	nomes = append(nomes, "João")
@@ -14,7 +10,7 @@ func nomesGET() []string {
 	return nomes
 }
 
-func nomesToUpperGET(nomes []string) []string {
+func NomesToUpperGET(nomes []string) []string {
 	nomesupper := []string{}
 	for _, nome := range nomes {
 		nomesupper = append(nomesupper, strings.ToUpper(nome))

@@ -15,7 +15,7 @@ func nomesGlobal() {
 
 func main() {
 
-	//1) alomamae()
+	alomamae()
 
 	//2) maiusculas("alo mamae")
 
@@ -59,11 +59,9 @@ func main() {
 	*/
 }
 
-/*
 func alomamae() {
 	println("alo mamae!")
 }
-*/
 
 /*
 func maiusculas(texto string) {

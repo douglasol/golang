@@ -2,18 +2,18 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"funcoes02/funcoes"
+)
 
 func main() {
-
-	alomamae()
-
-	nomes := nomesGET()
+	nomes := funcoes.NomesGET()
 	for _, nome := range nomes {
 		fmt.Printf("%v\n", nome)
 	}
 
-	nomes = nomesToUpperGET(nomes)
+	nomes = funcoes.NomesToUpperGET(nomes)
 	for _, nome := range nomes {
 		fmt.Printf("%v\n", nome)
 	}

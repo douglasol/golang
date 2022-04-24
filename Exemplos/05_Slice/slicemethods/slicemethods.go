@@ -1,4 +1,4 @@
-package estruturadados
+package slicemethods
 
 /* insere um item na pilha */
 func PushItem(s []int, v int) []int {
