@@ -1,14 +1,14 @@
-Este repositório foi criado para publicar os programas em Go, resultados de um primeiro contato com a linguagem. O objetivo era desenvolver testes para compreender a programação nesta linguagem, e acabou se transformando em um passo-a-passo ordenado com os temas mais relevantes, sob o meu ponto de vista, na programação básica com esta linguagem. Não é o guia definitivo de Go, e nem pretende ser, mas foi interessante para que eu pudesse compreender um pouco a respeito da estrutura de programação, execução e da dinâmica com Go, seus pontos fortes e também, alguns inconvenientes.
+Este repositório é resultado do meu estudo descompromissado a respeito de Go, e disponibiliza os programas que foram criados a partir do meu primeiro contato com a linguagem. O objetivo era desenvolver programas muito simples que servissem de testes para compreender a programação nesta fascinante linguagem. Acabou se transformando em um passo-a-passo ordenado com os temas, sob o meu ponto de vista, mais relevantes na programação básica com esta linguagem. Não é o guia definitivo de Go, e nem pretende ser, mas se você não tem por onde começar, pode lhe servir como base.
 
-Aprender Go é algo um pouco mais sério, pois vai exigir uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia-a-dia de trabalho. Quem sabe sai alguma coisa assim por aqui. Coisa que se alcança fazendo.
+Aprender Go já é algo um pouco mais sério, pois vai exigir não apenas testar os recursos, mas uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia a dia de trabalho, coisa que se alcança fazendo. Quem sabe sai alguma coisa assim por aqui.
 
-A linguagem Go é extensa e cheia de recursos, os pacotes são completos e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou pra tras.
+A linguagem Go é extensa e cheia de recursos, os pacotes são completos e extensos, e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa aqui para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou para trás.
 
-Caso queira participar, seja benvindo, fique a vontade para publicar seus testes.
+Caso queira participar, seja bem-vindo, fique à vontade para publicar suas contribuições.
 
 ## O Que é Go?
 
-* Criada na Google para substituir a programação Python, C/C++ e Java, por uma linguagem mais segura, concorrente e com compilação ágil
+* A linguagem foi criada na Google para substituir a programação Python, C/C++ e Java, por uma linguagem mais segura, concorrente e com compilação ágil
 * Linguagem igual a C/Java, com os mesmos operadores &&, ||, !=, incluindo os operadores binários ! | & ^ << >>
 * Fortemente tipada, incluindo tipos complexos complex64, complex128, para programação científica
 * Muito interessante porque identifica os erros no código durante a edição e não deixa programa continuar (mais seguro que C)
@@ -22,7 +22,7 @@ Caso queira participar, seja benvindo, fique a vontade para publicar seus testes
 > 5. Utilities
 > 6. IoT devices
 
-Como tudo hoje em dia se refere a nuvem, convém uma linguagem que explore todos os recursos deste ambiente.
+Como tudo hoje em dia se refere a nuvem, convém conhecer uma linguagem que explora todos os recursos deste ambiente e produz programas enxutos, otimizados e de baixo custo operacional.
 
 ## Setup
 Utilizei o Microsoft Visual Studio Code com o pacote Go para começar esta brincadeira. Praticamente downloads e cliques simples para começar a mexer com o trem.
@@ -47,6 +47,8 @@ Nos arquivos de **exemplo** incluí todos os testes executados, e para não vira
 Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
 
 Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tudo está documentado aqui: [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
+
+** RESUMO DOS EXEMPLOS **
 
 [Exemplo01](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo01) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
