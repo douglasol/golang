@@ -56,6 +56,11 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 * slice.go: conceito de slice e exemplos simples 
 
 [02_Functions](https://github.com/douglasol/golang/tree/main/Exemplos/02_Functions) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+* alomamae.go: dispensa comentários
+* global.go: variáveis globais em funções
+* recebendo.go: passagem e retorno de array em função
+* recebendovarios.go: mostra a passagem e retorno de muitos valores na mesma função
+* funcoes.go: basico de funções
 
 [03_Package](https://github.com/douglasol/golang/tree/main/Exemplos/03_Package) Cobre o assunto divisão do main em packages, dentro e fora do pacote main.
 
