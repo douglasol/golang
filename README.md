@@ -42,15 +42,25 @@ Por isso nem vou recomendar algum para você começar, pois vai depender do seu 
 ## Exemplos:
 É uma pasta na qual criei várias outras, em ordem sequencial, contendo os temas específicos. Do mais básico e simples para os temas mais cabeludos.
 
-Nos arquivos de **exemplo** incluí todos os testes executados, e para não virar uma bagunça, fui comentando, em um mesmo arquivo os testes separadamente. Isso nos primeiros exemplos. Depois fui criando arquivos .go em separado, devido a complexidade dos temas. Se ao executar não  aparecer nada, será necessário descomentar o bloco desejado e em seguida executar o **go run.** no terminal do VSC.
-
 Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
 
 Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tudo está documentado aqui: [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
 
 [01_Basico](https://github.com/douglasol/golang/tree/main/Exemplos/01_Basico) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
+* array.go: exemplo simples de array (o tema vai ser explorado futuramente em um capítulo a parte)
+* concatstring.go: concatenação de strings com +
+* for.go: laços for, break, if e outros recursos de loop
+* prints.go: tipos de Prints do Go
+* scans.go: entrada de dados no Terminal
+* regex.go: validação de entrada e valores com expressão regular (não é nada basico)
+* slice.go: conceito de slice e exemplos simples 
 
 [02_Functions](https://github.com/douglasol/golang/tree/main/Exemplos/02_Functions) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+* alomamae.go: dispensa comentários
+* global.go: variáveis globais em funções
+* recebendo.go: passagem e retorno de array em função
+* recebendovarios.go: mostra a passagem e retorno de muitos valores na mesma função
+* funcoes.go: basico de funções
 
 [03_Package](https://github.com/douglasol/golang/tree/main/Exemplos/03_Package) Cobre o assunto divisão do main em packages, dentro e fora do pacote main.
 
