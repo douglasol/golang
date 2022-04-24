@@ -50,17 +50,15 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 
 ** RESUMO DOS EXEMPLOS **
 
-[Exemplo01](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo01) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
+[01_Basico](https://github.com/douglasol/golang/tree/main/Exemplos/01_Basico) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
-[Exemplo02](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo02) Functions: Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+[02_Functions](https://github.com/douglasol/golang/tree/main/Exemplos/02_Functions) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
 
-[Exemplo03](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo03) Packages: Cobre o assunto divisão do main em packages, porém ainda dentro do mesmo pacote main.
+[03_Package](https://github.com/douglasol/golang/tree/main/Exemplos/03_Package) Cobre o assunto divisão do main em packages, dentro e fora do pacote main.
 
-[Exemplo04](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo04) Packages: Cobre o assunto de criação de packages separados em pastas, arquivos e comando import. Cenário ideal para projetos mais complexos.
+[04_Map](https://github.com/douglasol/golang/tree/main/Exemplos/04_Map) Tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
-[Exemplo05](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo05) Map: Cobre o tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
-
-[Exemplo06](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo06) Structs: Explora o tema de criação de tipos estruturados com struct em vários exemplos:
+[06_Struct](https://github.com/douglasol/golang/tree/main/Exemplos/06_Struct) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
 * (main.go) Conceitos básicos de struct
 * (structreview.go) Apresenta todos os recursos possiveis de criação e inicialização de struct com Go, com destaque o Method que permite associar uma ou mais funções em uma estrutura. Praticamente transforma a estrutura em uma classe.
 * (structadd.go e structadd2.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
@@ -68,7 +66,7 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 * (structforin.go) Percorre uma coleção (conceito for in)
 * (slicemethodsteste.go) Mostra as funções programadas no package **slicemethods**, para operação de coleções com slices.
 
-[Exemplo07](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo07) Strings: Trata do assunto de manipulação de strings
+[07_String](https://github.com/douglasol/golang/tree/main/Exemplos/07_String) Trata do assunto de manipulação de strings
 
 [Exemplo08](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo08) Database: A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
 
