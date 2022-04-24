@@ -1,11 +1,11 @@
-package main
+package basicos
 
 import (
 	"fmt"
 	"strings"
 )
 
-func tFor() {
+func Tfor() {
 
 	// loops:
 	nomecompleto := []string{}

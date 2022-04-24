@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"funcoes02/funcoes"
+	"golang/src/funcoes"
 )
 
 func main() {

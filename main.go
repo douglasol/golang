@@ -1,27 +1,44 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang/src/basicos"
+)
 
 func main() {
 
-	var i int
-	fmt.Print("Qual o programa?")
-	fmt.Scan(&i)
+	var c int
+	var t int
 
-	switch i {
+	fmt.Println("1. basicos")
+	fmt.Println("2. functions")
+	fmt.Println("3. package")
+	fmt.Print("Qual o capitulo?")
+	fmt.Scan(&c)
+
+	fmt.Print("Qual o programa?")
+	fmt.Scan(&t)
+
+	switch c {
 	case 1:
-		tArray()
-	case 2:
-		tPrint()
-	case 3:
-		tScan()
-	case 4:
-		tRegex()
-	case 5:
-		tConcatString()
-	case 6:
-		tSlice()
-	case 7:
-		tFor()
+		// 1. basicos
+		switch t {
+		case 1:
+			basicos.Tarray()
+		case 2:
+			basicos.Tprint()
+		case 3:
+			basicos.Tscan()
+		case 4:
+			basicos.Tregex()
+		case 5:
+			basicos.TconcatString()
+		case 6:
+			basicos.Tslice()
+		case 7:
+			basicos.Tfor()
+		}
+
 	}
+
 }
