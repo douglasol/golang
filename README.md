@@ -58,6 +58,8 @@ Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tu
 
 [04_Map](https://github.com/douglasol/golang/tree/main/Exemplos/04_Map) Tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
+[05_Slice](https://github.com/douglasol/golang/tree/main/Exemplos/05_Slice) Slices
+
 [06_Struct](https://github.com/douglasol/golang/tree/main/Exemplos/06_Struct) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
 * (main.go) Conceitos básicos de struct
 * (structreview.go) Apresenta todos os recursos possiveis de criação e inicialização de struct com Go, com destaque o Method que permite associar uma ou mais funções em uma estrutura. Praticamente transforma a estrutura em uma classe.
