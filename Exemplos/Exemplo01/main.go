@@ -2,16 +2,16 @@
 
 package main
 
-import "fmt"
-
 func main() {
 
-	//input:
+	print("Alo mamãe")
+
+	/*input:
 	var nome string
 	fmt.Println("Forneça seu nome:")
 	fmt.Scan(&nome)
 	fmt.Printf("Ola %v", nome)
-
+	*/
 	// concatenacao:
 	/*
 		var nome string
