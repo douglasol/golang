@@ -48,8 +48,6 @@ Algumas pastas incluem mais de um arquivo go, neste caso para executar o program
 
 Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tudo está documentado aqui: [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
 
-** RESUMO DOS EXEMPLOS **
-
 [01_Basico](https://github.com/douglasol/golang/tree/main/Exemplos/01_Basico) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 
 [02_Functions](https://github.com/douglasol/golang/tree/main/Exemplos/02_Functions) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
