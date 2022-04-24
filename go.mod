@@ -1,3 +1,3 @@
-module exemplo5
+module golang
 
 go 1.18
