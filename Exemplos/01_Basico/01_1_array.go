@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func tArray() {
 
 	var booking [3]string
 	booking[0] = "primeiro"

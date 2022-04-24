@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func tConcatString() {
 	var nome string
 	var sobrenome string
 

@@ -10,7 +10,7 @@ var NomesUpper []string
 var NomesLower []string
 
 func main() {
-	nomesListGET()
+	nomesListGET2()
 
 	for _, nome := range Nomes {
 		fmt.Printf("%v\n", nome)
@@ -23,7 +23,7 @@ func main() {
 	}
 }
 
-func nomesListGET() {
+func nomesListGET2() {
 	Nomes = append(Nomes, "Zé")
 	Nomes = append(Nomes, "João")
 	Nomes = append(Nomes, "Maria")

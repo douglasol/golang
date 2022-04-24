@@ -5,7 +5,7 @@ import (
 	"regexp"
 )
 
-func main() {
+func tRegex() {
 	var inome string
 	var isok bool
 

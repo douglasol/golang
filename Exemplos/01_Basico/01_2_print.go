@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
-	var nome string
-	nome = "Zé"
+func tPrint() {
+	nome := "Zé"
 
 	fmt.Println(nome)
 	fmt.Printf("Hello word %v\n", nome)

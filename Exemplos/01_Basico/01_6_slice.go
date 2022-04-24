@@ -2,9 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-
-	// slices:
+func tSlice() {
 	//var booking []string
 	booking := []string{}
 	booking = append(booking, "primeiro")

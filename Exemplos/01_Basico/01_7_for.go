@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main() {
+func tFor() {
 
 	// loops:
 	nomecompleto := []string{}
