@@ -4,15 +4,15 @@ import "fmt"
 
 func Tarray() {
 
-	var booking [3]string
-	booking[0] = "primeiro"
-	booking[1] = "segundo"
-	booking[2] = "terceiro"
+	var sequencia [3]string
+	sequencia[0] = "primeiro"
+	sequencia[1] = "segundo"
+	sequencia[2] = "terceiro"
 
-	fmt.Printf("Tamanho = %v\n", len(booking))
-	fmt.Printf("Tipo = %T\n", booking)
+	fmt.Printf("Tamanho = %v\n", len(sequencia))
+	fmt.Printf("Tipo = %T\n", sequencia)
 
-	for i, item := range booking {
-		fmt.Printf("booking[%v]=%v\n", i, item[i])
+	for i, item := range sequencia {
+		fmt.Printf("sequencia [%v]=%v\n", i, item[i])
 	}
 }
