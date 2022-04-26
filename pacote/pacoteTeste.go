@@ -1,23 +1,23 @@
-package package
+package main
 
 import (
 	"fmt"
-	"golang/package/pck1"
+	"modulo/pacote/pacote1"
 )
 
 func main() {
 
-	listanomes := pcknome.NomesGET()
+	listanomes := pacote1.NomesGET()
 	for _, nome := range listanomes {
 		fmt.Printf("%v\n", nome)
 	}
 
-	listanomes = pcknome.NomesToUpperGET(listanomes)
+	listanomes = pacote1.NomesToUpperGET(listanomes)
 	for _, nome := range listanomes {
 		fmt.Printf("%v\n", nome)
 	}
 
-	listanomes = pcknome.NomesToLowerGET(listanomes)
+	listanomes = pacote1.NomesToLowerGET(listanomes)
 	for _, nome := range listanomes {
 		fmt.Printf("%v\n", nome)
 	}

@@ -1,4 +1,4 @@
-package pck1
+package pacote1
 
 import "strings"
 
