@@ -4,7 +4,11 @@ import "fmt"
 
 func main() {
 	var pessoas = make([]map[string]string, 0)
-	pessoas = append(pessoas, pessoaADD("Zé", "Mané"))
+
+	pessoas = append(pessoas, map[string]string{
+		"nome":      "Joao",
+		"sobrenome": "Silva"})
+	pessoas = append(pessoas, pessoaADD("Zé", "Silva"))
 	pessoas = append(pessoas, pessoaADD("Maria", "Silva"))
 	for _, pessoa := range pessoas {
 		fmt.Printf("%v, %v\n", pessoa["nome"], pessoa["sobrenome"])
