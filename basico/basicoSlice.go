@@ -1,9 +1,8 @@
-package basicos
+package main
 
 import "fmt"
 
-func Tslice() {
-	//var booking []string
+func main() {
 	booking := []string{}
 	booking = append(booking, "primeiro")
 	booking = append(booking, "segundo")

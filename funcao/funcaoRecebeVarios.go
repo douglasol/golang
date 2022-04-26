@@ -1,5 +1,3 @@
-/* funções */
-
 package main
 
 import (

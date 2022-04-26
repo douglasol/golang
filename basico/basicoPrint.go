@@ -1,8 +1,8 @@
-package basicos
+package main
 
 import "fmt"
 
-func Tprint() {
+func main() {
 	nome := "Zé"
 
 	fmt.Println(nome)

@@ -1,8 +1,8 @@
-package basicos
+package main
 
 import "fmt"
 
-func Tscan() {
+func main() {
 	var nome string
 	fmt.Print("Forneça seu nome: ")
 	fmt.Scan(&nome)

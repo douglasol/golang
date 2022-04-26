@@ -1,8 +1,8 @@
-package basicos
+package main
 
 import "fmt"
 
-func Tarray() {
+func main() {
 
 	var booking [3]string
 	booking[0] = "primeiro"

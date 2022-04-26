@@ -1,4 +1,4 @@
-package nomes
+package pck1
 
 import "strings"
 
@@ -16,4 +16,12 @@ func NomesToUpperGET(nomes []string) []string {
 		nomesupper = append(nomesupper, strings.ToUpper(nome))
 	}
 	return nomesupper
+}
+
+func NomesToLowerGET(nomes []string) []string {
+	nomeslower := []string{}
+	for _, nome := range nomes {
+		nomeslower = append(nomeslower, strings.ToLower(nome))
+	}
+	return nomeslower
 }

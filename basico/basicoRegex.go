@@ -1,11 +1,11 @@
-package basicos
+package main
 
 import (
 	"fmt"
 	"regexp"
 )
 
-func Tregex() {
+func main() {
 	var inome string
 	var isok bool
 

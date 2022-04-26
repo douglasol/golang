@@ -1,8 +1,8 @@
-package basicos
+package main
 
 import "fmt"
 
-func TconcatString() {
+func main() {
 	var nome string
 	var sobrenome string
 
