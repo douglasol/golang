@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	var pessoa = map[string]int{
 		"Zé":    10,
 		"Maria": 20,
@@ -17,14 +16,4 @@ func main() {
 		"salsicha": 1.89,
 	}
 	fmt.Printf("%v\n", menu)
-
-	/*
-		menu := map[string]float64{
-			"ovo": 1.75,
-			"bacon": 3.22,
-			"salsicha": 1.89,
-		}
-	*/
-	fmt.Printf("%v\n")
-
 }
