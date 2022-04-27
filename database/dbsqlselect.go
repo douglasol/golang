@@ -10,54 +10,66 @@ import (
 	"fmt"
 	"log"
 
-	"exemplo8/mydb"
+	"modulo/database/mydb"
 
 	_ "github.com/denisenkom/go-mssqldb"
 )
+
+type Pessoa struct {
+	Cpf   string
+	Nome  string
+	Email string
+}
 
 func main() {
 
 	/* conecta no bd */
 	isOk := mydb.MyDbConnect()
 	if isOk {
-		count, err := readPessoa()
+		/* executa a querie */
+		var pessoas []Pessoa
+		count, err, pessoas := pessoaGET()
 		if err != nil {
 			log.Fatal("Error reading Pessoas: ", err.Error())
 		}
 		fmt.Printf("Read %d row(s) successfully.\n", count)
+		for _, pessoa := range pessoas {
+			fmt.Printf("%v\t%v\t%v\n", pessoa.Cpf, pessoa.Nome, pessoa.Email)
+		}
 	} else {
 		fmt.Printf("Not Connected! %v", isOk)
 	}
 }
 
-func readPessoa() (int, error) {
+func pessoaGET() (int, error, []Pessoa) {
 	var count int
+	var pessoas []Pessoa
 
 	/* Check if database is alive. */
 	ctx := context.Background()
 	err := mydb.Db.PingContext(ctx)
 	if err != nil {
-		return -1, err
+		return -1, err, pessoas
 	}
 
 	/* Execute query */
-	tsql := "select top 10 pessoaCPF, pessoaNome, pessoaEmail from pessoa;"
+	tsql := "select PessoaCPF,PessoaNome,PessoaEmail from Pessoa;"
 	rows, err := mydb.Db.QueryContext(ctx, tsql)
 	if err != nil {
-		return -1, err
+		return -1, err, pessoas
 	}
 	defer rows.Close()
 
 	/* Iterate through the result set */
 	for rows.Next() {
-		var pessoaCPF, pessoaNome, pessoaEmail string
+		var pessoa Pessoa
 		/* Get values from row */
-		err := rows.Scan(&pessoaCPF, &pessoaNome, &pessoaEmail)
+		err := rows.Scan(&pessoa.Cpf, &pessoa.Nome, &pessoa.Email)
 		if err != nil {
-			return -1, err
+			return -1, err, pessoas
 		}
-		fmt.Printf("%s,%s,%s\n", pessoaCPF, pessoaNome, pessoaEmail)
+		pessoas = append(pessoas, pessoa)
 		count++
 	}
-	return count, nil
+	return count, nil, pessoas
 }

@@ -1,7 +1,3 @@
-/*
- 	Onde obter os drivers e instalação?
-	https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go
-*/
 package mydb
 
 import (
@@ -13,24 +9,17 @@ import (
 	_ "github.com/denisenkom/go-mssqldb"
 )
 
-type Cursor struct {
-	nome  string
-	query string
-}
-
 /* db connection */
 var Db *sql.DB
 
 /* config */
 var (
-	server   = "** database **"
+	server   = "DESKTOP-3NV3626"
 	port     = 1433
-	user     = "** user **"
-	password = "** password **"
-	database = "** database **"
+	user     = "sa"
+	password = "kjdfnm2"
+	database = "GO"
 )
-
-var Cursores []Cursor
 
 /* conecta no database */
 func MyDbConnect() bool {
