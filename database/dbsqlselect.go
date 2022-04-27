@@ -1,8 +1,3 @@
-/*  MS Sql server
- 	Onde obter os drivers e instalação?
-	https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go
-
-*/
 package main
 
 import (

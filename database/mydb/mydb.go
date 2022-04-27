@@ -14,7 +14,7 @@ var Db *sql.DB
 
 /* config */
 var (
-	server   = "DESKTOP-3NV3626"
+	server   = "NCEI-7640" //"DESKTOP-3NV3626"
 	port     = 1433
 	user     = "sa"
 	password = "kjdfnm2"
