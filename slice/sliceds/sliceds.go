@@ -1,19 +1,18 @@
-package slicemethods
+package sliceds
 
 /* insere um item na pilha */
-func PushItem(s []int, v int) []int {
+func StackPushItem(s []int, v int) []int {
 	return append(s, v)
 }
 
 /* insere um item na pilha */
-func PopItem(s []int) ([]int, int) {
+func StackPopItem(s []int) ([]int, int) {
 	v := s[len(s)-1]
 	return s[:len(s)-1], v
 }
 
 /* insere item a partir de um indice (melhor solução) */
 func InsertItemOnIndex(s []int, i int, v int) []int {
-	/* caso a posição seja maior que o tamanho do slice */
 	if i >= len(s) {
 		return append(s, v)
 	} else {

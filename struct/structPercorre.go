@@ -5,9 +5,9 @@ import (
 )
 
 type Pessoas struct {
-	cpf   string
-	nome  string
-	email string
+	Cpf   string
+	Nome  string
+	Email string
 }
 
 func main() {
@@ -17,9 +17,7 @@ func main() {
 		{"333", "Paul Smith", "programmer@email.com"},
 	}
 
-	fmt.Printf("[\n")
 	for _, pessoa := range pessoas {
-		fmt.Printf("{\"cpf\":\"%v\",\t\"nome\":\"%v\",\t\"email\":\"%v\"},\n", pessoa.cpf, pessoa.nome, pessoa.email)
+		fmt.Printf("cpf:%v,nome:%v,email:%v\n", pessoa.Cpf, pessoa.Nome, pessoa.Email)
 	}
-	fmt.Printf("]\n")
 }
