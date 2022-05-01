@@ -1,7 +1,6 @@
 package main
 
 import (
-	"context"
 	"database/sql"
 	"fmt"
 	"log"
@@ -18,47 +17,37 @@ type Pessoa struct {
 }
 
 func main() {
-
-	/* carrega os dados da pessoa */
-	pessoa := pessoaREAD()
-
-	/* conecta no bd */
+	pessoa := pessoaGET()
 	isOk := mydb.MyDbConnect()
 	if isOk {
-		/* executa a querie */
-		deletedRows, err := pessoaDELETE(pessoa)
+		total, err := pessoaDELETE(pessoa)
 		if err != nil {
-			log.Fatal("Error deleting Employee: ", err.Error())
+			log.Fatal("Error deleting: ", err.Error())
 		}
-		fmt.Printf("Deleted %d row(s) successfully.\n", deletedRows)
+		fmt.Printf("Apagados %d registros com sucesso.\n", total)
 	} else {
-		fmt.Printf("Not Connected! %v", isOk)
+		fmt.Printf("Não conectado! %v", isOk)
 	}
 }
 
-func pessoaREAD() Pessoa {
+func pessoaGET() Pessoa {
 	var pessoa Pessoa
-	fmt.Print("cpf a remover:")
+	fmt.Println("DELETE")
+	fmt.Print("cpf:")
 	fmt.Scan(&pessoa.Cpf)
 	return pessoa
 }
 
 func pessoaDELETE(pessoa Pessoa) (int64, error) {
-	ctx := context.Background()
-
-	// Check if database is alive.
-	err := mydb.Db.PingContext(ctx)
+	err, ctx := mydb.MyDbContext()
 	if err != nil {
 		return -1, err
 	}
-
+	defer mydb.Db.Close()
 	tsql := fmt.Sprintf("DELETE FROM Pessoa WHERE PessoaCpf = @PessoaCpf;")
-
-	// Execute non-query with named parameters
 	result, err := mydb.Db.ExecContext(ctx, tsql, sql.Named("PessoaCpf", &pessoa.Cpf))
 	if err != nil {
 		return -1, err
 	}
-
 	return result.RowsAffected()
 }

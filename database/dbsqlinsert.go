@@ -1,11 +1,8 @@
 package main
 
 import (
-	"context"
 	"database/sql"
-	"errors"
 	"fmt"
-	"log"
 
 	"modulo/database/mydb"
 
@@ -19,26 +16,20 @@ type Pessoa struct {
 }
 
 func main() {
-
-	/* carrega os dados da pessoa */
-	pessoa := pessoaREAD()
-
-	/* conecta no bd */
-	isOk := mydb.MyDbConnect()
-	if isOk {
-		count, err := pessoaINSERT(pessoa)
-		if err != nil {
-			log.Fatal("Error reading Pessoas: ", err.Error())
+	pessoa := pessoaGET()
+	if mydb.MyDbConnect() {
+		total, _ := pessoaINSERT(pessoa)
+		if total > 0 {
+			fmt.Printf("Inserção executada, %v", total)
 		}
-		fmt.Printf("Ok.%v\n", count)
-
 	} else {
-		fmt.Printf("Not Connected! %v", isOk)
+		fmt.Printf("Não conectado!")
 	}
 }
 
-func pessoaREAD() Pessoa {
+func pessoaGET() Pessoa {
 	var pessoa Pessoa
+	fmt.Println("INSERT")
 	fmt.Print("cpf:")
 	fmt.Scan(&pessoa.Cpf)
 	fmt.Print("nome:")
@@ -49,41 +40,27 @@ func pessoaREAD() Pessoa {
 }
 
 func pessoaINSERT(pessoa Pessoa) (int64, error) {
-	ctx := context.Background()
-	var err error
-
-	if mydb.Db == nil {
-		err = errors.New("CreateEmployee: db is null")
-		return -1, err
-	}
-
-	// Check if database is alive.
-	err = mydb.Db.PingContext(ctx)
+	err, ctx := mydb.MyDbContext()
 	if err != nil {
 		return -1, err
 	}
 
-	tsql := `
-		insert into pessoa (PessoaCPF,PessoaNome,PessoaEmail) values (@PessoaCPF,@PessoaNome,@PessoaEmail);
-		select isNull(SCOPE_IDENTITY(), -1);
-		`
-
+	tsql := `insert into pessoa (PessoaCPF,PessoaNome,PessoaEmail) values (@PessoaCPF,@PessoaNome,@PessoaEmail);`
 	stmt, err := mydb.Db.Prepare(tsql)
 	if err != nil {
 		return -1, err
 	}
 	defer stmt.Close()
-
-	row := stmt.QueryRowContext(
+	//row := stmt.QueryRowContext(
+	row := stmt.QueryRow(
 		ctx,
 		sql.Named("PessoaCPF", pessoa.Cpf),
 		sql.Named("PessoaNome", pessoa.Nome),
-		sql.Named("PessoaEmail", pessoa.Email))
-	var newID int64
-	err = row.Scan(&newID)
-	if err != nil {
+		sql.Named("PessoaEmail", pessoa.Email),
+	)
+	err = row.Scan()
+	if err == nil {
 		return -1, err
 	}
-
-	return newID, nil
+	return 1, err
 }

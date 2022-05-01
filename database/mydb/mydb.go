@@ -14,7 +14,7 @@ var Db *sql.DB
 
 /* config */
 var (
-	server   = "NCEI-7640" //"DESKTOP-3NV3626"
+	server   = "DESKTOP-3NV3626" //"NCEI-7640"
 	port     = 1433
 	user     = "sa"
 	password = "kjdfnm2"
@@ -34,12 +34,19 @@ func MyDbConnect() bool {
 		log.Fatal("Error creating connection pool: ", err.Error())
 		isOk = false
 	}
-	ctx := context.Background()
-	err = Db.PingContext(ctx)
+
+	err, _ = MyDbContext()
 	if err != nil {
 		log.Fatal(err.Error())
 		isOk = false
 	}
 	/* conectado */
 	return isOk
+}
+
+/* trata contexto */
+func MyDbContext() (error, context.Context) {
+	ctx := context.Background()
+	err := Db.PingContext(ctx)
+	return err, ctx
 }

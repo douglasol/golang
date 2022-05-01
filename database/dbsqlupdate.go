@@ -1,11 +1,8 @@
 package main
 
 import (
-	"context"
 	"database/sql"
 	"fmt"
-	"log"
-
 	"modulo/database/mydb"
 
 	_ "github.com/denisenkom/go-mssqldb"
@@ -18,49 +15,35 @@ type Pessoa struct {
 }
 
 func main() {
-
-	/* carrega os dados da pessoa */
-	pessoa := pessoaREAD()
-
-	/* conecta no bd */
-	isOk := mydb.MyDbConnect()
-	if isOk {
-		// Update from database
-		updatedRows, err := pessoaUPDATE(pessoa)
-		if err != nil {
-			log.Fatal("Error updating Employee: ", err.Error())
+	pessoa := pessoaGET()
+	if mydb.MyDbConnect() {
+		total, err := pessoaUPDATE(pessoa)
+		if err == nil {
+			fmt.Printf("Atualizada %d registro com sucesso\n", total)
 		}
-		fmt.Printf("Updated %d row(s) successfully.\n", updatedRows)
-
 	} else {
-		fmt.Printf("Not Connected! %v", isOk)
+		fmt.Printf("Não conectado!")
 	}
 }
 
-func pessoaREAD() Pessoa {
+func pessoaGET() Pessoa {
 	var pessoa Pessoa
-	fmt.Print("cpf da pessoa:")
-	fmt.Scan(&pessoa.Cpf)
-	fmt.Print("nome novo:")
-	fmt.Scan(&pessoa.Nome)
-	fmt.Print("email novo:")
-	fmt.Scan(&pessoa.Email)
+	fmt.Println("UPDATE")
+	fmt.Print("cpf:")
+	fmt.Scanf("%s\n", &pessoa.Cpf)
+	fmt.Print("nome:")
+	fmt.Scanf("%s\n", &pessoa.Nome)
+	fmt.Print("email:")
+	fmt.Scanf("%s\n", &pessoa.Email)
 	return pessoa
 }
 
-// UpdateEmployee updates an employee's information
 func pessoaUPDATE(pessoa Pessoa) (int64, error) {
-	ctx := context.Background()
-
-	// Check if database is alive.
-	err := mydb.Db.PingContext(ctx)
+	err, ctx := mydb.MyDbContext()
 	if err != nil {
 		return -1, err
 	}
-
 	tsql := fmt.Sprintf("UPDATE Pessoa SET PessoaNome=@PessoaNome, PessoaEmail=@PessoaEmail WHERE PessoaCpf = @PessoaCpf")
-
-	// Execute non-query with named parameters
 	result, err := mydb.Db.ExecContext(
 		ctx,
 		tsql,
@@ -70,6 +53,5 @@ func pessoaUPDATE(pessoa Pessoa) (int64, error) {
 	if err != nil {
 		return -1, err
 	}
-
 	return result.RowsAffected()
 }
