@@ -6,11 +6,9 @@ import (
 )
 
 func main() {
-
-	// loops:
 	nomecompleto := []string{}
 	primeironome := []string{}
-	// entrada
+
 	for {
 		var inome string
 		var isobrenome string
