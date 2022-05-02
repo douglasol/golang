@@ -1,10 +1,11 @@
-Este repositório é resultado do meu estudo descompromissado a respeito de Go. 
+#GO: GUIA DO CURIOSO
 
-O objetivo é disponibilizar para os interessados em aprender esta linguagem os programas testes e exemplos, relacionados aos temas que considero relevantes para um programador. Para acompanhar estes exemplos, produzi um ebook que pode ser baixado aqui, [GO: GUIA DO CURIOSO](https://drive.google.com/file/d/15TBj6SLhg2Rtqy9UUy2f5RZtiTvtXaQT/view?usp=sharing). Não se trata do melhor material de ensino a respeito da linguagem, mas para começar esta aventura é um bom ponto de partida.
+Seja benvindo ao repositório de exemplos e programas na linguagem Go, do livro GO: GUIA DO CURIOSO.
+O livro é gratuito e poderá ser baixado aqui: [GO: GUIA DO CURIOSO](https://drive.google.com/file/d/15TBj6SLhg2Rtqy9UUy2f5RZtiTvtXaQT/view?usp=sharing). Não se trata do melhor material de ensino a respeito da linguagem, mas para começar esta aventura é um bom ponto de partida.
+
+O objetivo é disponibilizar para os interessados em aprender esta linguagem os programas testes e exemplos, relacionados aos temas que considero relevantes para um programador.
 
 A linguagem Go é extensa e cheia de recursos e merece alguma atenção, os pacotes são completos e extensos, e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa aqui para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou para trás.
-
-Caso queira participar, seja bem-vindo, fique à vontade para publicar suas contribuições.
 
 ## O Que é Go?
 
