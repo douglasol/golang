@@ -98,10 +98,8 @@ Algumas pastas incluem mais de um arquivo go, neste caso para executar o program
 
 
 ## Documentação adicional
-* [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing) Doc explicativo dos exemplos este Git.
 * [Go Language Specification](https://go.dev/ref/spec)
 * [golang.org](https://golang.org) or [go.dev](https://go.dev/)
-* [Learning Go Language in 7 hours](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1153s)
 
 # Boas praticas
 Talvez isso se transforme em um capítulo a parte, pois muita coisa deve ser definida para que se produza um bom guia de programação.
