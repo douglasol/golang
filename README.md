@@ -1,8 +1,8 @@
-Este repositório é resultado do meu estudo descompromissado a respeito de Go, e disponibiliza os programas que foram criados a partir do meu primeiro contato com a linguagem. O objetivo era desenvolver programas muito simples que servissem de testes para compreender a programação nesta fascinante linguagem. Acabou se transformando em um passo-a-passo ordenado com os temas, sob o meu ponto de vista, mais relevantes na programação básica com esta linguagem. Não é o guia definitivo de Go, e nem pretende ser, mas se você não tem por onde começar, pode lhe servir como base.
+Este repositório é resultado do meu estudo descompromissado a respeito de Go. 
 
-Aprender Go já é algo um pouco mais sério, pois vai exigir não apenas testar os recursos, mas uma abordagem mais prática em um projeto real, avançando sobre os temas encontrados no dia a dia de trabalho, coisa que se alcança fazendo. Quem sabe sai alguma coisa assim por aqui.
+O objetivo é disponibilizar para os interessados em aprender esta linguagem os programas testes e exemplos, relacionados aos temas que considero relevantes para um programador. Para acompanhar estes exemplos, produzi um ebook que pode ser baixado aqui, [GO: GUIA DO CURIOSO](https://drive.google.com/file/d/15TBj6SLhg2Rtqy9UUy2f5RZtiTvtXaQT/view?usp=sharing). Não se trata do melhor material de ensino a respeito da linguagem, mas para começar esta aventura é um bom ponto de partida.
 
-A linguagem Go é extensa e cheia de recursos, os pacotes são completos e extensos, e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa aqui para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou para trás.
+A linguagem Go é extensa e cheia de recursos e merece alguma atenção, os pacotes são completos e extensos, e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa aqui para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou para trás.
 
 Caso queira participar, seja bem-vindo, fique à vontade para publicar suas contribuições.
 
