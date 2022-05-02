@@ -48,25 +48,24 @@ Por isso nem vou recomendar algum para você começar, pois vai depender do seu 
 
 Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
 
-[01_Basico](https://github.com/douglasol/golang/tree/main/Exemplos/01_Basico) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
-* array.go: exemplo simples de array (o tema vai ser explorado futuramente em um capítulo a parte)
-* concatstring.go: concatenação de strings com +
-* for.go: laços for, break, if e outros recursos de loop
-* prints.go: tipos de Prints do Go
-* scans.go: entrada de dados no Terminal
-* regex.go: validação de entrada e valores com expressão regular (não é nada basico)
-* slice.go: conceito de slice e exemplos simples 
+[Basico](https://github.com/douglasol/golang/tree/main/basico) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
+* basicoarray.go: exemplo simples de array (o tema vai ser explorado futuramente em um capítulo a parte)
+* basicoconcatstring.go: concatenação de strings com +
+* basicofor.go: laços for, break, if e outros recursos de loop
+* basicoprint.go: operação de apresentação no terminal do VSC
+* basicoscan.go: entrada de dados no Terminal
+* basicoregex.go: validação de entrada e valores com expressão regular (não é nada basico)
+* basicoslice.go: conceito de slice e exemplos simples 
 
-[02_Functions](https://github.com/douglasol/golang/tree/main/Exemplos/02_Functions) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
-* alomamae.go: dispensa comentários
-* global.go: variáveis globais em funções
-* recebendo.go: passagem e retorno de array em função
-* recebendovarios.go: mostra a passagem e retorno de muitos valores na mesma função
-* funcoes.go: basico de funções
+[Função](https://github.com/douglasol/golang/tree/main/funcao) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+* funcaoalomamae.go: dispensa comentários
+* funcaoglobal.go: variáveis globais em funções
+* funcaorecebendo.go: passagem e retorno de array em função
+* funcaorecebendovarios.go: mostra a passagem e retorno de muitos valores na mesma função
 
-[03_Package](https://github.com/douglasol/golang/tree/main/Exemplos/03_Package) Cobre o assunto divisão do main em packages, dentro e fora do pacote main.
+[Package](https://github.com/douglasol/golang/tree/main/Exemplos/03_Package) Cobre o assunto divisão do main em packages e organização de arquivos.
 
-[04_Map](https://github.com/douglasol/golang/tree/main/Exemplos/04_Map) Tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
+[Map](https://github.com/douglasol/golang/tree/main/Exemplos/04_Map) Tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
 [05_Slice](https://github.com/douglasol/golang/tree/main/Exemplos/05_Slice) Slices
 
