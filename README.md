@@ -48,8 +48,6 @@ Por isso nem vou recomendar algum para você começar, pois vai depender do seu 
 
 Algumas pastas incluem mais de um arquivo go, neste caso para executar o programa no termilan será necessário digitar **go run nome_programa.go**
 
-Para os temas de SQL Server será necessário incluir pacotes externos ao Go, tudo está documentado aqui: [Laboratório.go](https://docs.google.com/document/d/1d5CogFKYcD7gxHnzGoZ2b_WpSF0DbXdPbHtGTg9XJj0/edit?usp=sharing)
-
 [01_Basico](https://github.com/douglasol/golang/tree/main/Exemplos/01_Basico) Cobre os assuntos básicos a respeito da linguagem, operadores, variáveis, for, if, switch, arrays, slices, package fmt(Scan, Print), package strings(Split, Contains, Map). 
 * array.go: exemplo simples de array (o tema vai ser explorado futuramente em um capítulo a parte)
 * concatstring.go: concatenação de strings com +
