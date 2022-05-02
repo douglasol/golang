@@ -1,8 +1,11 @@
-##GO: GUIA DO CURIOSO
+## GO: GUIA DO CURIOSO
 
 Seja benvindo ao repositório de exemplos e programas na linguagem Go, do livro GO: GUIA DO CURIOSO.
+
 O livro é gratuito e poderá ser baixado aqui: 
+
 * Versão draft: [DOWNLOAD](https://drive.google.com/file/d/15TBj6SLhg2Rtqy9UUy2f5RZtiTvtXaQT/view?usp=sharing).
+* 
 Não se trata do melhor material de ensino a respeito da linguagem, mas para começar esta aventura é um bom ponto de partida.
 
 O objetivo é disponibilizar para os interessados em aprender esta linguagem os programas testes e exemplos, relacionados aos temas que considero relevantes para um programador.
