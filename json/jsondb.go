@@ -3,12 +3,11 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"exemplo9/mydb"
 	"fmt"
 	"log"
 	"os"
 	"strings"
-
-	"exemplo9/mydb"
 
 	_ "github.com/denisenkom/go-mssqldb"
 )
@@ -19,22 +18,20 @@ func main() {
 	if isOk {
 		count, err, pessoas := pessoaGET()
 		if err != nil {
-			log.Fatal("Error reading Pessoas: ", err.Error())
+			log.Fatal("Erro lendo Pessoa: ", err.Error())
 		}
-
-		/* resultado ok */
 
 		/* converte struct em JSON */
 		data, err := json.Marshal(pessoas)
 		if err != nil {
-			fmt.Println("error:", err)
+			fmt.Println("Erro:", err)
 		} else {
 			os.Stdout.Write(data)
 		}
-		fmt.Printf("Read %d row(s) successfully.\n", count)
+		fmt.Printf("%d registros recuperadas.\n", count)
 
 	} else {
-		fmt.Printf("Not Connected! %v", isOk)
+		fmt.Printf("Não conectado! %v", isOk)
 	}
 }
 
