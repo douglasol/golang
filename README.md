@@ -57,19 +57,19 @@ Algumas pastas incluem mais de um arquivo go, neste caso para executar o program
 * basicoregex.go: validação de entrada e valores com expressão regular (não é nada basico)
 * basicoslice.go: conceito de slice e exemplos simples 
 
-[Função](https://github.com/douglasol/golang/tree/main/funcao) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
+[Function](https://github.com/douglasol/golang/tree/main/funcao) Cobre o assunto functions com vários exemplos de criação, passagem de parâmetro, retorno, variáveis globais.
 * funcaoalomamae.go: dispensa comentários
 * funcaoglobal.go: variáveis globais em funções
 * funcaorecebendo.go: passagem e retorno de array em função
 * funcaorecebendovarios.go: mostra a passagem e retorno de muitos valores na mesma função
 
-[Package](https://github.com/douglasol/golang/tree/main/Exemplos/03_Package) Cobre o assunto divisão do main em packages e organização de arquivos.
+[Package](https://github.com/douglasol/golang/tree/main/pacote) Cobre o assunto divisão do main em packages e organização de arquivos.
 
-[Map](https://github.com/douglasol/golang/tree/main/Exemplos/04_Map) Tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
+[Map](https://github.com/douglasol/golang/tree/main/mapa) Tema **map** para a criação de arrays baseados em chaves ao invés de indices. O exemplo cria um tipo map e uma lista de maps.
 
-[05_Slice](https://github.com/douglasol/golang/tree/main/Exemplos/05_Slice) Slices
+[Slice](https://github.com/douglasol/golang/tree/main/slice) Slices
 
-[06_Struct](https://github.com/douglasol/golang/tree/main/Exemplos/06_Struct) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
+[Struct](https://github.com/douglasol/golang/tree/main/struct) Explora o tema de criação de tipos estruturados com struct em vários exemplos:
 * (main.go) Conceitos básicos de struct
 * (structreview.go) Apresenta todos os recursos possiveis de criação e inicialização de struct com Go, com destaque o Method que permite associar uma ou mais funções em uma estrutura. Praticamente transforma a estrutura em uma classe.
 * (structadd.go e structadd2.go) Um segundo programa foi incluido para mostrar a operação de coleção de structs e sua carga por variáveis. Cada coleção deverá implementar seu método add(item), pois Go não automatiza isso para o tipo struct. 
@@ -77,21 +77,19 @@ Algumas pastas incluem mais de um arquivo go, neste caso para executar o program
 * (structforin.go) Percorre uma coleção (conceito for in)
 * (slicemethodsteste.go) Mostra as funções programadas no package **slicemethods**, para operação de coleções com slices.
 
-[07_String](https://github.com/douglasol/golang/tree/main/Exemplos/07_String) Trata do assunto de manipulação de strings
+[database](https://github.com/douglasol/golang/tree/main/database) Database: A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
 
-[Exemplo08](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo08) Database: A conexão com o banco de dados Microsoft SQL Server é vista neste exemplo. A operação é um simples select em uma tabela, mas já é possível verificar que a programação segue um padrão simples, mas não menos trabalhoso para o desenvolvedor. Siga os passos da Microsoft (https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-go) para instalar os pacotes necessários para rodar o exemplo.
-
-[Exemplo09](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo09) JSON: é o assunto. 
+[json](https://github.com/douglasol/golang/tree/main/json) JSON: é o assunto. 
 * (main.go) apresenta um exemplo simples que pega a estrutura criada e a converte em JSON. 
 * (jsoncolor.go) utiliza um formatador de JSON fornecido por um desenvolvedor terceiro para apresentar o JSON formatdado.
 * (jsondb.go) Já avança criando JSON a partir do select na tabela de Pessoas.
 * (jsonmarshal.go) Exemplo do uso do método Marshal para formatação de JSON
 
-[Exemplo10](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo10) Web application:
+[web](https://github.com/douglasol/golang/tree/main/web) Web application:
 
-[Exemplo11](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Files: Criação e leitura de arquivo texto no diretório.
+[arquivo](https://github.com/douglasol/golang/tree/main/file) Files: Criação e leitura de arquivo texto no diretório.
 
-[Exemplo12](https://github.com/douglasol/golang/tree/main/Exemplos/Exemplo11) Orientação a Objetos: Interfaces
+[interface](https://github.com/douglasol/golang/tree/main/interface) Orientação a Objetos: Interfaces
 * (interface.go) Apresenta o conceito de interfaces, sendo um método Show() usado em dois structs distintos (Artigo e Livro)
 * (interfacedupla.go) Apresenta a comparação de Area de circulo e retângulo, mostrando chamada e retorno.
 
