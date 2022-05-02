@@ -4,11 +4,9 @@ Seja benvindo ao repositório de exemplos e programas na linguagem Go, do livro 
 
 O livro é gratuito e poderá ser baixado aqui: 
 
-* Versão draft: [DOWNLOAD](https://drive.google.com/file/d/15TBj6SLhg2Rtqy9UUy2f5RZtiTvtXaQT/view?usp=sharing).
-* 
-Não se trata do melhor material de ensino a respeito da linguagem, mas para começar esta aventura é um bom ponto de partida.
+* Versão draft: [ACESSE AQUI](https://drive.google.com/file/d/15TBj6SLhg2Rtqy9UUy2f5RZtiTvtXaQT/view?usp=sharing). Esta versão está sujeita a modificações.
 
-O objetivo é disponibilizar para os interessados em aprender esta linguagem os programas testes e exemplos, relacionados aos temas que considero relevantes para um programador.
+O objetivo deste repositório é disponibilizar para os interessados em aprender esta linguagem os programas testes e exemplos, relacionados aos temas que considero relevantes para um programador.
 
 A linguagem Go é extensa e cheia de recursos e merece alguma atenção, os pacotes são completos e extensos, e a sintaxe muito interessante. Para um tutorial mais sério, falta muita coisa aqui para ser abordado, e mesmo nos pacotes que me deparei neste primeiro momento, muita coisa ficou para trás.
 
